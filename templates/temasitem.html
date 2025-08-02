@@ -1,0 +1,27 @@
+<div class="border-bottom row" style="margin-bottom:16px;padding-bottom:5px;">
+    <div class="col-9">
+        <h4 style="margin-bottom:4px;">                                 
+            {{i['Tema']}} 
+        </h4>
+
+
+
+        <div>
+            Duración: {{i['Duración']}}
+        </div>
+
+
+        {% if 'Evaluación' in i %}
+
+        <div>
+            Evaluación: {{i['Evaluación']}}
+        </div>
+
+        {% endif %}
+    </div>
+
+    <div class="col-3"> 
+        <button type="button" class="btn btn-outline-primary">Apply</button>
+    </div>
+
+</div>
