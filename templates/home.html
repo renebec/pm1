@@ -5,6 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pm1-2025</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
+    <script>
+        function updateDateTime() {
+            // Get the current date and time in Central Mexico
+            let options = {
+                timeZone: "America/Mexico_City",
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+                hour: "2-digit",
+                minute: "2-digit",
+                second: "2-digit",
+                hour12: true
+            };
+
+            let currentDateTime = new Date().toLocaleString("es-MX", options);
+
+            // Format the date and time as "9 de abril de 2025, 09:40:00"
+            document.getElementById('date-time').innerHTML = currentDateTime;
+        }
+
+        // Update the time every second
+        setInterval(updateDateTime, 1000);
+
+        // Initial call to set the time immediately
+        updateDateTime();
+    </script>
     <style>
         #banner {
             display:block;
@@ -29,6 +59,9 @@
             Pensamiento Matemático 1
         </h1>
     </header>
+    <text style="font-size:11px;color:#04AA6D;" id="date-time"></text>&nbsp;
+    <text style="font-size:11px;color:#04AA6D;">, </text>
+    <text style="font-size:11px;color:#04AA6D;" id="time"></text>
     <main class="container">
         <p style="text-align:right;">M.C. Héctor René Becerril Cejudo</p>
         <img id="banner" src= "https://matematicas-1.onrender.com/static/books.jpg"> 
@@ -55,7 +88,7 @@
                 
 
         <div style="text-align:center;">
-            <button class="btn btn-primary btn-lg">Contact us</button>
+            <button class="btn btn-primary btn-lg">Contacto</button>
         </div>
     </main>
     <footer>
