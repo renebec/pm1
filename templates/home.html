@@ -25,7 +25,7 @@
         </h1>
     </header>
     <main class="container">
-        <p>This is a simple HTML page. You can add more content here!</p>
+        
         <img id="banner" src= "https://matematicas-1.onrender.com/static/books.jpg"> 
         <br>
         <br>
@@ -34,13 +34,19 @@
             Acerca del curso
         </h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
         <h2 class="text-center mt-4 mb-2" style="padding-bottom:16px;color:rgb(100,100,100);">
-            {{nombre_escuela}} Contenido temático</h2>
+        Parcial 1
+        </h2>
+        
         <div>
             {% for i in temas %}
             {% include 'temasitem.html' %}
             {% endfor %}
         </div>
+
+                
+
         <div style="text-align:center;">
             <button class="btn btn-primary btn-lg">Contact us</button>
         </div>

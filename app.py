@@ -2,9 +2,11 @@ from flask import Flask, render_template, jsonify
 
 app = Flask(__name__)
 
+
 TEMAS = [
   {
     'id':1,
+    'pg': 'Progresión 1',
     'Tema':'Introducción',
     'Duración':'20 min',
     'Evaluación': ' ',
@@ -15,6 +17,7 @@ TEMAS = [
   
   {
     'id':2,
+    'pg': 'Progresión 2',
     'Tema':'Conteos',
     'Duración':'30 min',
     'Evaluación': '20%',
@@ -25,6 +28,7 @@ TEMAS = [
   
   {
     'id':3,
+    'pg': 'Progresión 3',
     'Tema':'Tablas',
     'Duración':'50 min',
     'Evaluación': '30%',
@@ -34,6 +38,7 @@ TEMAS = [
   },
   {
     'id':4,
+    'pg': 'Progresión 4',
     'Tema':'Proporcionalidad',
     'Duración':'120 min',
     'Evaluación': '50%',
@@ -45,10 +50,12 @@ TEMAS = [
 
 @app.route("/")
 def hello_pm1():
-    
   return render_template('home.html',
-                        temas=TEMAS,
-                        nombre_escuela='C-205')
+                        temas=TEMAS
+                        )
+
+
+
 
 
 @app.route('/tema/<int:tema_id>')
