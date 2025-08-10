@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 TEMAS = [
   {
-    'ID':1,
+    'id':1,
     'Tema':'Introducción',
     'Duración':'20 min',
     'Evaluación': ' ',
@@ -14,7 +14,7 @@ TEMAS = [
   },
   
   {
-    'ID':2,
+    'id':2,
     'Tema':'Conteos',
     'Duración':'30 min',
     'Evaluación': '20%',
@@ -24,7 +24,7 @@ TEMAS = [
   },
   
   {
-    'ID':3,
+    'id':3,
     'Tema':'Tablas',
     'Duración':'50 min',
     'Evaluación': '30%',
@@ -33,7 +33,7 @@ TEMAS = [
     'Resuelve': 'Con ayuda de tu ptofesor en clase, organiza la información de los teléfonos celulares en una tabla. Recuerda que una tabla debe tener enccabezados y su estructura consiste en filas y columnas. No olvides además incluir un título en la parte superior de la tabla. El título debe ser breve y claro y debe indicar el contenido de la tabla.'
   },
   {
-    'ID':4,
+    'id':4,
     'Tema':'Proporcionalidad',
     'Duración':'120 min',
     'Evaluación': '50%',
@@ -45,9 +45,18 @@ TEMAS = [
 
 @app.route("/")
 def hello_pm1():
+    
   return render_template('home.html',
                         temas=TEMAS,
                         nombre_escuela='C-205')
+
+
+@app.route('/tema/<int:tema_id>')
+def show_tema(tema_id):
+    # Supongamos que TEMAS es tu estructura de datos (lista o dict)
+    tema = TEMAS[tema_id]
+    return render_template('classpage.html', i=tema)
+  
 
 @app.route("/api/temas")
 def list_temas():
