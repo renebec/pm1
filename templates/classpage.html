@@ -38,10 +38,26 @@
             padding:10px;
             background-color:rgb(250,155,200);
         }
+        .home-link1 {
+            position: fixed;
+            top: 25%;
+            right: 10px;
+            background-color: #04556D;
+            color: yellow;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            z-index: 1100; /* Ensures it stays on top */
+        }
+        .home-link:hover {
+            background-color: #CCFAFA;
+            color: #A0A0D0;
+        }
     </style>
 </head>
 <body>
     <main class="container">
+        <a onclick="history.back()" class="home-link1">&leftarrow; Atrás</a>
     <h3>{{i['pg']}}</h3>
     <p>{{i['Tema']}}</p> 
     
