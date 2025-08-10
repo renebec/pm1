@@ -13,32 +13,58 @@
             height: 240px;
             object-fit:cover;
         }
+        .container{
+            width: 740px;
+            margin-left:auto;
+            margin-right:auto;
+            text-align:justify;
+        }
+        .apertura{
+            padding:10px;
+            background-color:rgb(50,255,100);
+        }
+        .desarrollo{
+            padding:10px;
+            background-color:rgb(250,255,100);
+        }
+
+        .cierre{
+            padding:10px;
+            background-color:rgb(250,155,200);
+        }
     </style>
 </head>
 <body>
+    <main class="container">
     <h3>{{i['pg']}}</h3>
     <p>{{i['Tema']}}</p> 
     
     <h3>Contenido:</h3>
     {{i['Contenido']}}
     <br>
+        <div class="apertura">
     <h2 style="color:green;">Apertura:</h2>
     {{i['Apertura']}}
     <h3>Caso {{i['id']}}:</h3>
     {{i['Caso']}}
     <br>
     <img src="https://cdn.prod.website-files.com/65cac95950f3d533b99cf635/65e7a5fbb0d8a62f937baa30_try.webp" alt="Caso 1" style="width:50%;height:auto">
+            </div>
+        <div class="desarrollo">
     <h2 style="color:orange;"">Desarrollo:</h2>
     {{i['Desarrollo']}}
     <h3>Resuelve:</h3>
     {{i['Resuelve']}}
+            </div>
+        <div class="cierre">
     <h2 style="color:purple";>Cierre:</h2>
     {{i['Cierre']}}
     <br>
+            </div>
     <br>
     <br>
     <br>
     
-
+        </main>
 </body>
 </html>
