@@ -13,7 +13,7 @@ TEMAS = [
     'Contenido': 'Hola, bienvenido a la clase de Pensamiento Matemático I. En esta clase aprenderemos a resolver problemas de manera intuitiva con base en el razonamiento lógico.',
     'Apertura': 'Para comenzar la clase, vamos a resolver un problema rescatando conocimientos previos.',
     'Caso': 'En un grupo de 10 personas, 3 personas son mujeres y 7 son hombres, ¿cuántas personas hay en total y cuántas son mujeres?',
-    'src1':'https://cdn.prod.website-files.com/65cac95950f3d533b99cf635/65e7a5fbb0d8a62f937baa30_try.webp',
+    'src1':'https://matematicas-1.onrender.com/static/gente.jpg',
     'Desarrollo': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
     'Resuelve': 'Para resolver este problema primero contamos el total de personas y luego identificamos en la lectura cuántas son mujeres?',
     'Cierre': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
