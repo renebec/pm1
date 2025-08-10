@@ -13,6 +13,7 @@ TEMAS = [
     'Contenido': 'Hola, bienvenido a la clase de Pensamiento Matemático I. En esta clase aprenderemos a resolver problemas de manera intuitiva con base en el razonamiento lógico.',
     'Apertura': 'Para comenzar la clase, vamos a resolver un problema rescatando conocimientos previos.',
     'Caso': 'En un grupo de 10 personas, 3 personas son mujeres y 7 son hombres, ¿cuántas personas hay en total y cuántas son mujeres?',
+    'src1':'https://cdn.prod.website-files.com/65cac95950f3d533b99cf635/65e7a5fbb0d8a62f937baa30_try.webp',
     'Desarrollo': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
     'Resuelve': 'Para resolver este problema primero contamos el total de personas y luego identificamos en la lectura cuántas son mujeres?',
     'Cierre': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
@@ -27,6 +28,7 @@ TEMAS = [
     'Contenido': 'En esta clase aprenderemos algunas técnicas útiles para contar objetos.',
     'Apertura': 'Para comenzar la clase, vamos a resolver un problema rescatando conocimientos previos.',
     'Caso': 'En un aparador de una tienda de teléfonos celulares hay 3 marcas diferentes. De la primera marca hay 5 modelos, de la segunda marca hay 4 modelos y de la tercera marca hay 6 modelos. ¿Cuántos modelos de teléfonos celulares hay en total?',
+'src1':'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHVoZjZtczZwbXJqbms4YmNvZ2lidjk2cDBjcmxqZzloNmR1bnc0eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JIX9t2j0ZTN9S/giphy.gif',
     'Desarrollo': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
     'Resuelve': 'Para resolver este problema primero contamos los modelos de cada marca y luego sumamos para obtener el total',
     'Cierre': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
@@ -41,6 +43,7 @@ TEMAS = [
     'Contenido': 'Las tablas son una herramienta útil para organizar información y resolver problemas.',
     'Apertura': 'Para comenzar la clase, vamos a resolver un problema rescatando conocimientos previos.',
     'Caso': '¿Recuerdas las marcas de teléfonos celulares que contamos en la clase anterior? Ahora vamos a organizar la información en una tabla.',
+    'src1':'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW5xNmwzMnhxMWkwZmRwYWU4c2xydzFwYnB2ZWp6ems1NzkyZjh0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BemKqR9RDK4V2/giphy.gif',
     'Desarrollo': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
     'Resuelve': 'Con ayuda de tu ptofesor en clase, organiza la información de los teléfonos celulares en una tabla. Recuerda que una tabla debe tener enccabezados y su estructura consiste en filas y columnas. No olvides además incluir un título en la parte superior de la tabla. El título debe ser breve y claro y debe indicar el contenido de la tabla.',
     'Cierre': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
@@ -54,6 +57,7 @@ TEMAS = [
     'Contenido': 'En esta clase aprenderemos a resolver problemas que involucran relaciones entre cantidades.',
     'Apertura': 'Para comenzar la clase, vamos a resolver un problema rescatando conocimientos previos.',
     'Caso': 'En un grupo de 10 personas, 3 personas son hombres y 7 son mujeres, ¿Cuál es la proporción de hombres y mujeres?',
+    'src1':'https://peninsula360press.com/wp-content/uploads/2021/01/wp2297919-1600x1000.jpg',
     'Desarrollo': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
     'Resuelve': 'Para resolver este problema primero contamos el total de personas que hay en el grupo y luego identificamos cuántas son hombres y cuántas son mujeres. Finalmente, dividimos el número de hombres entre el total de personas para obtener la proporción de hombres; hacemos el mismo procedimiento para obtener la proporción de mujeres.',
     'Cierre': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final para entregar antes de continuar con el programa.'
