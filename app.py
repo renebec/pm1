@@ -10,10 +10,8 @@ TEMAS = [
     'Evaluación': ' ',
     'Contenido': 'Hola, bienvenido a la clase de Pensamiento Matemático I. En esta clase aprenderemos a resolver problemas de manera intuitiva con base en el razonamiento lógico.',
     'Caso': 'En un grupo de 10 personas, 3 personas son hombres y 7 son mujeres, ¿cuántas personas hay en total y cuántas son mujeres?',
-    'Resuelve': 'Para resolver este problema primero contamos el total de personas y luego identificamos en la lectura cuántas son mujeres?'
-    
-
-  },
+    'Resuelve': 'Para resolver este problema primero contamos el total de personas y luego identificamos en la lectura cuántas son mujeres?'},
+  
   {
     'ID':2,
     'Tema':'Conteos',
@@ -21,9 +19,8 @@ TEMAS = [
     'Evaluación': '20%',
     'Contenido': 'En esta clase aprenderemos algunas técnicas útiles para contar objetos.',
     'Caso': 'En un aparador de una tienda de teléfonos celulares hay 3 marcas diferentes. De la primera marca hay 5 modelos, de la segunda marca hay 4 modelos y de la tercera marca hay 6 modelos. ¿Cuántos modelos de teléfonos celulares hay en total?',
-    'Resuelve': 'Para resolver este problema primero contamos los modelos de cada marca y luego sumamos para obtener el total',
-    
-  },
+    'Resuelve': 'Para resolver este problema primero contamos los modelos de cada marca y luego sumamos para obtener el total'},
+  
   {
     'ID':3,
     'Tema':'Tablas',
@@ -31,8 +28,7 @@ TEMAS = [
     'Evaluación': '30%',
     'Contenido':, 'Las tablas son una herramienta útil para organizar información y resolver problemas.',
     'Caso': '¿Recuerdas las marcas de teléfonos celulares que contamos en la clase anterior? Ahora vamos a organizar la información en una tabla.',
-    'Resuelve': 'Con ayuda de tu ptofesor en clase, organiza la información de los teléfonos celulares en una tabla. Recuerda que una tabla debe tener enccabezados y su estructura consiste en filas y columnas. No olvides además incluir un título en la parte superior de la tabla. El título debe ser breve y claro y debe indicar el contenido de la tabla.'
-  },
+    'Resuelve': 'Con ayuda de tu ptofesor en clase, organiza la información de los teléfonos celulares en una tabla. Recuerda que una tabla debe tener enccabezados y su estructura consiste en filas y columnas. No olvides además incluir un título en la parte superior de la tabla. El título debe ser breve y claro y debe indicar el contenido de la tabla.'},
   {
     'ID':4,
     'Tema':'Proporcionalidad',
@@ -40,8 +36,7 @@ TEMAS = [
     'Evaluación': '50%',
     'Contenido': 'En esta clase aprenderemos a resolver problemas que involucran relaciones entre cantidades.',
     'Caso': 'En un grupo de 10 personas, 3 personas son hombres y 7 son mujeres, ¿Cuál es la proporción de hombres y mujeres?',
-    'Resuelve': 'Para resolver este problema primero contamos el total de personas que hay en el grupo y luego identificamos cuántas son hombres y cuántas son mujeres. Finalmente, dividimos el número de hombres entre el total de personas para obtener la proporción de hombres; hacemos el mismo procedimiento para obtener la proporción de mujeres.'
-  },
+    'Resuelve': 'Para resolver este problema primero contamos el total de personas que hay en el grupo y luego identificamos cuántas son hombres y cuántas son mujeres. Finalmente, dividimos el número de hombres entre el total de personas para obtener la proporción de hombres; hacemos el mismo procedimiento para obtener la proporción de mujeres.'},
 ]
 
 @app.route("/")
