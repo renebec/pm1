@@ -54,7 +54,7 @@ def hello_pm1():
 @app.route('/tema/<int:tema_id>')
 def show_tema(tema_id):
     # Supongamos que TEMAS es tu estructura de datos (lista o dict)
-    tema = TEMAS[tema_id]
+    tema = TEMAS[tema_id-1]
     return render_template('classpage.html', i=tema)
   
 
