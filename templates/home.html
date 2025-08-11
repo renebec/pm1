@@ -51,6 +51,11 @@
             text-align:justify;
         }
 
+        .partial-footer-total {
+            color:#AA99e1;
+            font-size:14px;
+        }
+
         
     </style>
 </head>
@@ -118,7 +123,7 @@
                 {% endif %}
             {% endfor %}
 
-            <h5>Total Ponderado: {{ ns.total }}%</h5>
+            <text class='partial-footer-total'>Total Ponderado: {{ ns.total }}%<text><br>
 
             {% set ns = namespace(total=0) %}
 
@@ -132,7 +137,7 @@
                 {% endif %}
             {% endfor %}
 
-            <h5>Total tiempo: {{ ns.total }} minutos</h5>
+            <text class='partial-footer-total'>Total tiempo: {{ ns.total }} minutos</text>
         </div>
 
 
@@ -165,7 +170,7 @@
                 {% endif %}
             {% endfor %}
 
-            <h5>Total Ponderado: {{ ns.total }}%</h5>
+            <text class= 'partial-footer-total'>Total Ponderado: {{ ns.total }}%</text><br>
 
             {% set ns = namespace(total=0) %}
 
@@ -179,7 +184,7 @@
                 {% endif %}
             {% endfor %}
 
-            <h5>Total tiempo: {{ ns.total }} minutos</h5>
+            <text class='partial-footer-total'>Total tiempo: {{ ns.total }} minutos</text>
         </div>
 
 
@@ -211,7 +216,7 @@
                 {% endif %}
             {% endfor %}
 
-            <h5>Total Ponderado: {{ ns.total }}%</h5>
+            <text class='partial-footer-total'>Total Ponderado: {{ ns.total }}%</text><br>
 
             {% set ns = namespace(total=0) %}
 
@@ -225,7 +230,7 @@
                 {% endif %}
             {% endfor %}
 
-            <h5>Total tiempo: {{ ns.total }} minutos</h5>
+            <text class='partial-footer-total'>Total tiempo: {{ ns.total }} minutos</text>
         </div>
 
                 

@@ -78,8 +78,8 @@
         </div>
         
         <div class="apertura">
-    <h2 style="color:green;">Apertura ({{i['Apertura tiempo total']}})</h2>
-    {{i['Apertura']}}
+    <h2 style="color:green;">Apertura ({{i['Apertura tiempo total']}} )</h2>
+    {{i['Apertura'] | safe}}
     <h3>Caso {{i['id']}}:</h3>
     {{i['Caso']}}
     <br>

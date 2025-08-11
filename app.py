@@ -38,9 +38,7 @@ TEMAS = [
     'Evidencia I1': '',
     'Evidencia I2': '',
     'Evidencia I3': '',
-    'Apertura': 'A partir de una conversación guiada, se lanzarán un par de preguntas detonantes acerca de la importancia del manejo e interpretación de la información en la vida cotidiana y en algunos contextos de la vida moderna. <br><br>
-    Las preguntas detonantes son:<br>
-    ¿Cómo saber donde conviene comprar un producto de interés? ¿Es probable que mi equipo favorito gane el próximo partido? ¿Qué tan probable es que en mi familia alguien se enferme de la piel? Se realizará la laectura de las preguntas y se compartirán respuestas en el grupo.',
+    'Apertura': 'A partir de una conversación guiada, se lanzarán un par de preguntas detonantes acerca de la importancia del manejo e interpretación de la información en la vida cotidiana y en algunos contextos de la vida moderna.<br><br>    Las preguntas detonantes son:<br> ¿Cómo saber donde conviene comprar un producto de interés? ¿Es probable que mi equipo favorito gane el próximo partido? ¿Qué tan probable es que en mi familia alguien se enferme de la piel? Se realizará la laectura de las preguntas y se compartirán respuestas en el grupo.',
     'Apertura tiempo': 'Docente 25 - Independiente: 5',
     'Apertura tiempo total': 30,
     'Apertura técnicas': 'Conversación guiada y preguntas detonantes',
@@ -71,7 +69,7 @@ TEMAS = [
     'Revisó': 'Ing. Ana Lucía Gallegos',
     'Avaló': 'Ing. José Luis Alcalá López',
     'Ponderación': 10,
-    'Contenido': 'Se busca llevar al estudiantado a que aprecie el poder de la matemática y el pensamiento estadístico y probabilístico. En este punto no se espera que se resuelvan las problemáticas abordadas.',
+    'Contenido': 'Se busca llevar al estudiantado a que aprecie el poder de la matemática y el pensamiento estadístico y probabilístico.',
     'Caso': 'En un grupo de 10 personas, 3 personas son mujeres y 7 son hombres, ¿cuántas personas hay en total y cuántas son mujeres?',
     'src1':'https://matematicas-1.onrender.com/static/gente.jpg',
     'Ejercicios': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
