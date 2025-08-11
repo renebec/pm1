@@ -1,5 +1,8 @@
 from flask import Flask, render_template, jsonify
 
+from gevent import monkey; monkey.patch_all()
+from gevent.pywsgi import WSGIServer
+
 app = Flask(__name__)
 
 
@@ -296,6 +299,8 @@ TEMAS = [
   },
 ]
 
+
+
 @app.route("/")
 def hello_pm1():
   return render_template('home.html',
@@ -317,5 +322,11 @@ def show_tema(tema_id):
 def list_temas():
   return jsonify(TEMAS)
 
-if __name__ == "__main__":
-  app.run(host="0.0.0.0", port=8080, debug=True)
+#if __name__ == "__main__":
+#  app.run(host="0.0.0.0", port=8080, debug=True)
+
+
+
+if __name__ == '__main__':
+    http_server = WSGIServer(('0.0.0.0', 8080), app)
+    http_server.serve_forever()
