@@ -49,7 +49,7 @@ TEMAS = [
     'Apertura eva diag': 'Participación grupal, lluvia de ideas',
     'Apertura eva inst': '',
     'Apertura eva pond': 0,
-    'Desarrollo': 'Juan quiere comprar un teléfono celular y existem 3 diferentes marcas que le interesan: Xioma, Serpu y Ziron. Juan consultó en internet cuántos equipos de cada marca han sido devueltos a la tienda por mal funcionamiento. Los resultados fueron los siguiente:<br><br><div class="border-bottom row"><div class="col-4">Xioma: 0</div> <div class="col-4">Serpu: 3</div>  <div class="col-4">Ziron: 1</div></div><br><br> ¿Cuál marca crees que debería comprar Juán y por qué?',
+    'Desarrollo': 'Juan quiere comprar un teléfono celular y existem 3 diferentes marcas que le interesan: Xioma, Serpu y Ziron. Juan consultó en internet cuántos equipos de cada marca han sido devueltos a la tienda por mal funcionamiento. Los resultados fueron los siguiente:<br><br><div class="border-bottom row mx-auto text-center"><div class="col-4">Xioma: 0</div> <div class="col-4">Serpu: 3</div>  <div class="col-4">Ziron: 1</div></div><br><br> ¿Cuál marca crees que debería comprar Juán y por qué?',
     'Desarrollo tiempo': 'Docente: 30 min - Independiente: 0 min',
     'Desarrollo tiempo total': 30,
     'Desarrollo técnicas': 'Lluvia de ideas y elaboración de un resumen.',
