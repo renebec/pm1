@@ -19,11 +19,12 @@ TEMAS = [
     'Horas independiente': '15 mins',
 
     'pg': 'Progresión 1',
+    'pg desc': 'iscute la importancia de la toma razonada de decisiones, tanto a nivel personal como colectivo, utilizando ejemplos reales o ficticios y de problemáticas complejas que sean significativas para valorar la recolección de datos, su organización y la aleatoriedad.<br><br>Se busca llevar al estudiantado a que aprecie el poder de la matemática y el pensamiento estadístico y probabilístico. En este punto no se espera que se resuelvan las problemáticas abordadas.',
     'Conocimientos integradores': '',
     'Dimensión': '',
-    'Categoría(s)':'',
-    'Subcategoría(s)':'',
-    'Metas de aprendizaje':'',
+    'Categoría(s)':'<b>C2</b> Procesos de intuición y razonamiento.',
+    'Subcategoría(s)':'<b>S1</b> Capacidad para observar y conjeturar. ',
+    'Metas de aprendizaje':'<b>M1</b> Observa y obtiene información de una situación o fenómeno para establecer estrategias o formas de visualización que ayuden a entenderlo. ',
     'Aprendizaje de trayectoria':'',
     'Multi 1': 'Cultura Digital - Progresión 2',
     'Multi 2': 'Cultura Digital - Progresión 3',
@@ -93,6 +94,7 @@ TEMAS = [
     'Horas independiente': '60 mins',
 
     'pg': 'Progresión 2',
+    'pg desc': '',
     'Conocimientos integradores': '',
     'Dimensión': '',
     'Categoría(s)':'',
@@ -165,6 +167,7 @@ TEMAS = [
     'Horas independiente': '60 mins',
 
     'pg': 'Progresión 3',
+    'pg desc': '',
     'Conocimientos integradores': '',
     'Dimensión': '',
     'Categoría(s)':'',
@@ -236,6 +239,7 @@ TEMAS = [
     'Horas independiente': '60 mins',
 
     'pg': 'Progresión 4',
+    'pg desc': '',
     'Conocimientos integradores': '',
     'Dimensión': '',
     'Categoría(s)':'',
