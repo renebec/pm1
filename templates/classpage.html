@@ -70,7 +70,7 @@
 
         <h2></h2>
         <h3>{{i['pg']}} (Tiempo: {{tiempo}} minutos)</h3>
-
+        {{i['pg desc']}}
 
     <h3>Contenido:</h3>
     {{i['Contenido']}}
@@ -87,13 +87,13 @@
             </div>
         <div class="desarrollo">
     <h2 style="color:orange;"">Desarrollo:</h2>
-    {{i['Desarrollo']}}
+    {{i['Desarrollo'] | safe}}
     <h3>Resuelve:</h3>
     {{i['Resuelve']}}
             </div>
         <div class="cierre">
     <h2 style="color:purple";>Cierre:</h2>
-    {{i['Cierre']}}
+    {{i['Cierre'] | safe}}
     <br>
             </div>
     <br>
