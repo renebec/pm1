@@ -70,7 +70,7 @@ TEMAS = [
     'Revisó': 'Ing. Ana Lucía Gallegos',
     'Avaló': 'Ing. José Luis Alcalá López',
     'Ponderación': 10,
-    'Contenido': 'Hola, bienvenido a la clase de Pensamiento Matemático I. En esta clase aprenderemos a resolver problemas de manera intuitiva con base en el razonamiento lógico.',
+    'Contenido': 'Se busca llevar al estudiantado a que aprecie el poder de la matemática y el pensamiento estadístico y probabilístico. En este punto no se espera que se resuelvan las problemáticas abordadas.',
     'Caso': 'En un grupo de 10 personas, 3 personas son mujeres y 7 son hombres, ¿cuántas personas hay en total y cuántas son mujeres?',
     'src1':'https://matematicas-1.onrender.com/static/gente.jpg',
     'Ejercicios': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
