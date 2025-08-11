@@ -37,7 +37,9 @@ TEMAS = [
     'Evidencia I1': '',
     'Evidencia I2': '',
     'Evidencia I3': '',
-    'Apertura': 'A partir de una conversación guiada, se lanzarán un par de preguntas detonantes acerca de la importancia del manejo e interpretación de la información en la vida cotidiana y en algunos contextos de la vida moderna. ¿Cómo saber donde conviene comprar un producto de interés? ¿Es probable que mi equipo favorito gane el próximo partido? ¿Qué tan probable es que en mi familia alguien se enferme de la piel? Se realizará la laectura de las preguntas y se compartirán respuestas en el grupo.',
+    'Apertura': 'A partir de una conversación guiada, se lanzarán un par de preguntas detonantes acerca de la importancia del manejo e interpretación de la información en la vida cotidiana y en algunos contextos de la vida moderna. <br><br>
+    Las preguntas detonantes son:<br>
+    ¿Cómo saber donde conviene comprar un producto de interés? ¿Es probable que mi equipo favorito gane el próximo partido? ¿Qué tan probable es que en mi familia alguien se enferme de la piel? Se realizará la laectura de las preguntas y se compartirán respuestas en el grupo.',
     'Apertura tiempo': 'Docente 25 - Independiente: 5',
     'Apertura tiempo total': 30,
     'Apertura técnicas': 'Conversación guiada y preguntas detonantes',
