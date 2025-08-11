@@ -89,16 +89,56 @@
             <br>
             En el programa de Pensamiento Matemático I se abordan 15 progresiones de aprendizaje que tienen impacto en el logro de las metas de aprendizaje clasificadas utilizando las cuatro categorías y empleando algunas de sus subcategorías. Las metas de aprendizaje de Pensamiento Matemático refieren a lo que se espera que el estudiantado aprenda durante la trayectoria de la UAC. .</p>
 
-        <h2 class="text-center mt-4 mb-2" style="padding-bottom:16px;color:rgb(100,100,100);">
-        {{temas[1]['Parcial']}}
-        </h2>
+        <div>            
+            {% set item = (temas | selectattr('Parcial', 'equalto', 'Parcial 1') | first) %}
+            {% if item %}
+            <h2 class="text-center mt-4 mb-2" style="padding-       bottom:16px;color:rgb(100,100,100);">
+                {{item['Parcial']}}
+            </h2>
+            {% endif %}
+        </div>
         
         <div>
             {% for i in temas %}
-            {% include 'temasitem.html' %}
+                {% if i['Parcial'] == 'Parcial 1' %}
+                    {% include 'temasitem.html' %}
+                {% endif %}
             {% endfor %}
         </div>
 
+        <div>                     
+                {% set item = (temas | selectattr('Parcial', 'equalto', 'Parcial 2') | first) %}
+                {% if item %}
+                <h2 class="text-center mt-4 mb-2" style="padding-       bottom:16px;color:rgb(100,100,100);">
+                    {{item['Parcial']}}
+                </h2>
+                {% endif %}
+        </div>
+        
+        <div>
+            {% for i in temas %}
+                {% if i['Parcial'] == 'Parcial 2' %}
+                    {% include 'temasitem.html' %}
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div>                     
+                {% set item = (temas | selectattr('Parcial', 'equalto', 'Parcial 3') | first) %}
+                {% if item %}
+                <h2 class="text-center mt-4 mb-2" style="padding-       bottom:16px;color:rgb(100,100,100);">
+                    {{item['Parcial']}}
+                </h2>
+                {% endif %}
+        </div>
+
+        <div>
+            {% for i in temas %}
+                {% if i['Parcial'] == 'Parcial 3' %}
+                    {% include 'temasitem.html' %}
+                {% endif %}
+            {% endfor %}
+        </div>
                 
 
         <div style="text-align:center;">

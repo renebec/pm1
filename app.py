@@ -147,7 +147,7 @@ TEMAS = [
   {
     'id':3,
     'Plantel': 'CBTA 205',
-    'Parcial' : 'Parcial 1',
+    'Parcial' : 'Parcial 2',
     'Docente(s)': 'M.C. Héctor René Becerril Cejudo',
     'UAC': 'Pensamiento Matemático I',
     'Tema':'Tablas',
@@ -216,7 +216,7 @@ TEMAS = [
   {
     'id':4,
     'Plantel': 'CBTA 205',
-    'Parcial' : 'Parcial 1',
+    'Parcial' : 'Parcial 3',
     'Docente(s)': 'M.C. Héctor René Becerril Cejudo',
     'UAC': 'Pensamiento Matemático I',
     'Tema':'Proporcionalidad',
