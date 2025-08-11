@@ -12,12 +12,12 @@ TEMAS = [
     'UAC': 'Pensamiento Matemático I',
     'Tema':'Introducción',
     'Temática general': 'Experimentos de la vida cotidiana',
-    'Temática específica': 'A',
+    'Temática específica': 'Presentación del curso y criterios de evaluación',
     'Semestre': '1°',
     'Grupos': 'A, B y C',
-    'Horas docente': '60 mins',
-    'Horas independiente': '60 mins',
-    'Duración':'20 min',
+    'Horas docente': '45 mins',
+    'Horas independiente': '15 mins',
+    'Duración':'60 min',
     'pg': 'Progresión 1',
     'Conocimientos integradores': '',
     'Dimensión': '',
@@ -37,13 +37,14 @@ TEMAS = [
     'Evidencia I1': '',
     'Evidencia I2': '',
     'Evidencia I3': '',
-    'Apertura': '',
-    'Apertura tiempo': '',
-    'Apertura técnicas': '',
+    'Apertura': 'A partir de una conversación guiada, se lanzarán un par de preguntas detonantes acerca de la importancia del manejo e interpretación de la información en la vida cotidiana y en algunos contextos de la vida moderna. ¿Cómo saber donde conviene comprar un producto de interés? ¿Es probable que mi equipo favorito gane el próximo partido? ¿Qué tan probable es que en mi familia alguien se enferme de la piel? Se realizará la laectura de las preguntas y se compartirán respuestas en el grupo.',
+    'Apertura tiempo': '25 min - 5 min',
+    'Apertura tiempo total': '30 min',
+    'Apertura técnicas': 'Conversación guiada y preguntas detonantes',
     'Apertura evidencia': '',
     'Apertura eva diag': '',
     'Apertura eva inst': '',
-    'Apertura eva pond': '',
+    'Apertura eva pond': '0 %',
     'Desarrollo': '',
     'Desarrollo tiempo': '',
     'Desarrollo técnicas': '',
@@ -66,12 +67,11 @@ TEMAS = [
     'Avaló': '',
     'Evaluación': ' ',
     'Contenido': 'Hola, bienvenido a la clase de Pensamiento Matemático I. En esta clase aprenderemos a resolver problemas de manera intuitiva con base en el razonamiento lógico.',
-    'Apertura': 'Para comenzar la clase, vamos a resolver un problema rescatando conocimientos previos.',
     'Caso': 'En un grupo de 10 personas, 3 personas son mujeres y 7 son hombres, ¿cuántas personas hay en total y cuántas son mujeres?',
     'src1':'https://matematicas-1.onrender.com/static/gente.jpg',
-    'Desarrollo': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
+    'Ejercicios': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
     'Resuelve': 'Para resolver este problema primero contamos el total de personas y luego identificamos en la lectura cuántas son mujeres?',
-    'Cierre': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
+    'Retroalimentación': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
   },
   
   {
@@ -109,6 +109,7 @@ TEMAS = [
     'Evidencia I3': '',
     'Apertura': '',
     'Apertura tiempo': '',
+    'Apertura tiempo total': '30 min',
     'Apertura técnicas': '',
     'Apertura evidencia': '',
     'Apertura eva diag': '',
@@ -136,12 +137,11 @@ TEMAS = [
     'Avaló': '',
     'Evaluación': '20%',
     'Contenido': 'En esta clase aprenderemos algunas técnicas útiles para contar objetos.',
-    'Apertura': 'Para comenzar la clase, vamos a resolver un problema rescatando conocimientos previos.',
     'Caso': 'En un aparador de una tienda de teléfonos celulares hay 3 marcas diferentes. De la primera marca hay 5 modelos, de la segunda marca hay 4 modelos y de la tercera marca hay 6 modelos. ¿Cuántos modelos de teléfonos celulares hay en total?',
 'src1':'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHVoZjZtczZwbXJqbms4YmNvZ2lidjk2cDBjcmxqZzloNmR1bnc0eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JIX9t2j0ZTN9S/giphy.gif',
-    'Desarrollo': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
+    'Ejercicios': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
     'Resuelve': 'Para resolver este problema primero contamos los modelos de cada marca y luego sumamos para obtener el total',
-    'Cierre': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
+    'Retroalimentación': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
   },
   
   {
@@ -179,6 +179,7 @@ TEMAS = [
     'Evidencia I3': '',
     'Apertura': '',
     'Apertura tiempo': '',
+    'Apertura tiempo total': '30 min',
     'Apertura técnicas': '',
     'Apertura evidencia': '',
     'Apertura eva diag': '',
@@ -206,12 +207,11 @@ TEMAS = [
     'Avaló': '',
     'Evaluación': '30%',
     'Contenido': 'Las tablas son una herramienta útil para organizar información y resolver problemas.',
-    'Apertura': 'Para comenzar la clase, vamos a resolver un problema rescatando conocimientos previos.',
     'Caso': '¿Recuerdas las marcas de teléfonos celulares que contamos en la clase anterior? Ahora vamos a organizar la información en una tabla.',
-    'src1':'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW5xNmwzMnhxMWkwZmRwYWU4c2xydzFwYnB2ZWp6ems1NzkyZjh0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BemKqR9RDK4V2/giphy.gif',
-    'Desarrollo': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
+'src1':'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW5xNmwzMnhxMWkwZmRwYWU4c2xydzFwYnB2ZWp6ems1NzkyZjh0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BemKqR9RDK4V2/giphy.gif',
+    'Ejercicios': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
     'Resuelve': 'Con ayuda de tu ptofesor en clase, organiza la información de los teléfonos celulares en una tabla. Recuerda que una tabla debe tener enccabezados y su estructura consiste en filas y columnas. No olvides además incluir un título en la parte superior de la tabla. El título debe ser breve y claro y debe indicar el contenido de la tabla.',
-    'Cierre': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
+    'Retroalimentación': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
   },
   {
     'id':4,
@@ -248,6 +248,7 @@ TEMAS = [
     'Evidencia I3': '',
     'Apertura': '',
     'Apertura tiempo': '',
+    'Apertura tiempo total': '30 min',
     'Apertura técnicas': '',
     'Apertura evidencia': '',
     'Apertura eva diag': '',
@@ -275,12 +276,11 @@ TEMAS = [
     'Avaló': '',
     'Evaluación': '50%',
     'Contenido': 'En esta clase aprenderemos a resolver problemas que involucran relaciones entre cantidades.',
-    'Apertura': 'Para comenzar la clase, vamos a resolver un problema rescatando conocimientos previos.',
     'Caso': 'En un grupo de 10 personas, 3 personas son hombres y 7 son mujeres, ¿Cuál es la proporción de hombres y mujeres?',
     'src1':'https://peninsula360press.com/wp-content/uploads/2021/01/wp2297919-1600x1000.jpg',
-    'Desarrollo': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
+    'Ejercicios': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
     'Resuelve': 'Para resolver este problema primero contamos el total de personas que hay en el grupo y luego identificamos cuántas son hombres y cuántas son mujeres. Finalmente, dividimos el número de hombres entre el total de personas para obtener la proporción de hombres; hacemos el mismo procedimiento para obtener la proporción de mujeres.',
-    'Cierre': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final para entregar antes de continuar con el programa.'
+    'Retroalimentación': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final para entregar antes de continuar con el programa.'
   },
 ]
 
