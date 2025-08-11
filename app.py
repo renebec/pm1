@@ -6,6 +6,7 @@ app = Flask(__name__)
 TEMAS = [
   {
     'id':1,
+    'UAC': 'Pensamiento Matemático I',
     'pg': 'Progresión 1',
     'Tema':'Introducción',
     'Duración':'20 min',
@@ -21,6 +22,7 @@ TEMAS = [
   
   {
     'id':2,
+    'UAC': 'Pensamiento Matemático I',
     'pg': 'Progresión 2',
     'Tema':'Conteos',
     'Duración':'30 min',
@@ -36,6 +38,7 @@ TEMAS = [
   
   {
     'id':3,
+    'UAC': 'Pensamiento Matemático I',
     'pg': 'Progresión 3',
     'Tema':'Tablas',
     'Duración':'50 min',
@@ -50,6 +53,7 @@ TEMAS = [
   },
   {
     'id':4,
+    'UAC': 'Pensamiento Matemático I',
     'pg': 'Progresión 4',
     'Tema':'Proporcionalidad',
     'Duración':'120 min',
