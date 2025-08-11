@@ -119,6 +119,20 @@
             {% endfor %}
 
             <h5>Total Ponderado: {{ ns.total }}%</h5>
+
+            {% set ns = namespace(total=0) %}
+
+            {% for i in temas %}
+                {% if i['Parcial'] == 'Parcial 1' %}
+                    {% set tapertura = i['Apertura tiempo total'] | int %}
+                    {% set tdesarrollo = i['Desarrollo tiempo total'] | int %}
+                    {% set tcierre = i['Cierre tiempo total'] | int %}
+                    {% set parcial_sum = tapertura + tdesarrollo + tcierre %}
+                    {% set ns.total = ns.total + parcial_sum %}
+                {% endif %}
+            {% endfor %}
+
+            <h5>Total tiempo: {{ ns.total }} minutos</h5>
         </div>
 
 
@@ -152,6 +166,20 @@
             {% endfor %}
 
             <h5>Total Ponderado: {{ ns.total }}%</h5>
+
+            {% set ns = namespace(total=0) %}
+
+            {% for i in temas %}
+                {% if i['Parcial'] == 'Parcial 2' %}
+                    {% set tapertura = i['Apertura tiempo total'] | int %}
+                    {% set tdesarrollo = i['Desarrollo tiempo total'] | int %}
+                    {% set tcierre = i['Cierre tiempo total'] | int %}
+                    {% set parcial_sum = tapertura + tdesarrollo + tcierre %}
+                    {% set ns.total = ns.total + parcial_sum %}
+                {% endif %}
+            {% endfor %}
+
+            <h5>Total tiempo: {{ ns.total }} minutos</h5>
         </div>
 
 
@@ -184,6 +212,20 @@
             {% endfor %}
 
             <h5>Total Ponderado: {{ ns.total }}%</h5>
+
+            {% set ns = namespace(total=0) %}
+
+            {% for i in temas %}
+                {% if i['Parcial'] == 'Parcial 3' %}
+                    {% set tapertura = i['Apertura tiempo total'] | int %}
+                    {% set tdesarrollo = i['Desarrollo tiempo total'] | int %}
+                    {% set tcierre = i['Cierre tiempo total'] | int %}
+                    {% set parcial_sum = tapertura + tdesarrollo + tcierre %}
+                    {% set ns.total = ns.total + parcial_sum %}
+                {% endif %}
+            {% endfor %}
+
+            <h5>Total tiempo: {{ ns.total }} minutos</h5>
         </div>
 
                 
