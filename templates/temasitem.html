@@ -11,17 +11,22 @@
 
 
         <div>
-            Duración: {{i['Duración']}}
+            {% set tiempo = 0 %}
+            {% set tiempo = tiempo + i['Apertura tiempo total'] + i['Desarrollo tiempo total'] + i['Cierre tiempo total'] %}
+            Duración: {{tiempo}} minutos
+        </div>
+
+        <div> 
+            {% set eva = 0 %}
+                    {% set eva = eva + i['Apertura eva pond'] + i['Desarrollo eva pond'] + i['Cierre eva pond'] %}
+
+        Evaluación: {{eva}} %
+
+
+            
         </div>
 
 
-        {% if 'Evaluación' in i %}
-
-        <div>
-            Evaluación: {{i['Evaluación']}}
-        </div>
-
-        {% endif %}
 
         <div>
             Contenido: {{i['Contenido']}}
@@ -48,5 +53,6 @@
         <button type="button" class="btn btn-outline-primary">Apply</button>
         -->
     </div>
+   
 
 </div>

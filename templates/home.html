@@ -103,8 +103,25 @@
                 {% if i['Parcial'] == 'Parcial 1' %}
                     {% include 'temasitem.html' %}
                 {% endif %}
+            
             {% endfor %}
+
+            {% set ns = namespace(total=0) %}
+
+            {% for i in temas %}
+                {% if i['Parcial'] == 'Parcial 1' %}
+                    {% set apertura = i['Apertura eva pond'] | int %}
+                    {% set desarrollo = i['Desarrollo eva pond'] | int %}
+                    {% set cierre = i['Cierre eva pond'] | int %}
+                    {% set parcial_sum = apertura + desarrollo + cierre %}
+                    {% set ns.total = ns.total + parcial_sum %}
+                {% endif %}
+            {% endfor %}
+
+            <h5>Total Ponderado: {{ ns.total }}%</h5>
         </div>
+
+
 
         <div>                     
                 {% set item = (temas | selectattr('Parcial', 'equalto', 'Parcial 2') | first) %}
@@ -121,7 +138,22 @@
                     {% include 'temasitem.html' %}
                 {% endif %}
             {% endfor %}
+
+            {% set ns = namespace(total=0) %}
+
+            {% for i in temas %}
+                {% if i['Parcial'] == 'Parcial 2' %}
+                    {% set apertura = i['Apertura eva pond'] | int %}
+                    {% set desarrollo = i['Desarrollo eva pond'] | int %}
+                    {% set cierre = i['Cierre eva pond'] | int %}
+                    {% set parcial_sum = apertura + desarrollo + cierre %}
+                    {% set ns.total = ns.total + parcial_sum %}
+                {% endif %}
+            {% endfor %}
+
+            <h5>Total Ponderado: {{ ns.total }}%</h5>
         </div>
+
 
         <div>                     
         {% set item = (temas | selectattr('Parcial', 'equalto', 'Parcial 3') | first) %}
@@ -138,7 +170,22 @@
                     {% include 'temasitem.html' %}
                 {% endif %}
             {% endfor %}
+
+            {% set ns = namespace(total=0) %}
+
+            {% for i in temas %}
+                {% if i['Parcial'] == 'Parcial 3' %}
+                    {% set apertura = i['Apertura eva pond'] | int %}
+                    {% set desarrollo = i['Desarrollo eva pond'] | int %}
+                    {% set cierre = i['Cierre eva pond'] | int %}
+                    {% set parcial_sum = apertura + desarrollo + cierre %}
+                    {% set ns.total = ns.total + parcial_sum %}
+                {% endif %}
+            {% endfor %}
+
+            <h5>Total Ponderado: {{ ns.total }}%</h5>
         </div>
+
                 
 
         <div style="text-align:center;">

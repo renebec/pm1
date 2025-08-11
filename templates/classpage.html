@@ -64,7 +64,13 @@
             <br>
         <a onclick="history.back()" class="home-link1">&leftarrow; Atrás</a>
     <div class="mt-3 mb-3">
-        <h3>{{i['pg']}}</h3>
+
+        {% set tiempo = 0 %}
+                {% set tiempo = tiempo + i['Apertura tiempo total'] + i['Desarrollo tiempo total'] + i['Cierre tiempo total'] %}
+
+        <h2></h2>
+        <h3>{{i['pg']}} (Tiempo: {{tiempo}} minutos)</h3>
+
 
     <h3>Contenido:</h3>
     {{i['Contenido']}}
