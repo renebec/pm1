@@ -82,7 +82,7 @@ TEMAS = [
     'src1':'https://matematicas-1.onrender.com/static/pic01 motorcycle.jpg',
     'Ejercicios': 'Con lo que hemos aprendido anteriormente, ahora buscaremos dar solución a algunas situaciones.',
     'Resuelve': '',
-    'Retroalimentación': ''\n\n\n
+    'Retroalimentación': '\n\n\n'
   },
   
   {
