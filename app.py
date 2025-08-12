@@ -48,7 +48,7 @@ TEMAS = [
     'Apertura eva diag': 'Participación grupal, lluvia de ideas',
     'Apertura eva inst': '',
     'Apertura eva pond': 0,
-    'Desarrollo': 'Juan quiere comprar una motocicleta y existen 3 diferentes marcas que le interesan: Xioma, Serpux y Ziron. Juan consultó en internet cuántas motocicletas de cada marca han sido devueltos este año a la tienda por mal funcionamiento. Los resultados fueron los siguiente:<br><br><div class="border-bottom row mx-auto text-center"><div class="col-4">Xioma: 0</div> <div class="col-4">Serpux: 4</div>  <div class="col-4">Ziron: 1</div></div><br><br> ¿Cuál marca crees que debería comprar Juán y por qué?<br>¿Cuál marca crees que es la que se descompone con mayor <b>frecuencia</b>?<br><br><div class="navtxt"><b>*Frecuencia</b> se refiere al <b>número</b> de veces que un evento se repite.</div><br><br>',
+    'Desarrollo': 'Juan quiere comprar una motocicleta y existen 3 diferentes marcas que le interesan: Xioma, Serpux y Ziron. Juan consultó en internet cuántas motocicletas de cada marca han sido devueltos este año a la tienda por mal funcionamiento. Los resultados fueron los siguiente:<br><br><div class="border-bottom row mx-auto text-center"><div class="col-4">Xioma: 0</div> <div class="col-4">Serpux: 4</div>  <div class="col-4">Ziron: 1</div></div><br><br>1. ¿Cuál marca crees que debería comprar Juán y por qué?<br>2. ¿Cuál marca crees que es la que se descompone con mayor <b>frecuencia</b>?<br><br><div class="navtxt"><b>*Frecuencia</b> se refiere al <b>número</b> de veces que un evento se repite.</div><br><br>',
     'Desarrollo tiempo': 'Docente: 30 min - Independiente: 0 min',
     'Desarrollo tiempo total': 30,
     'Desarrollo técnicas': 'Lluvia de ideas y elaboración de un resumen.',
