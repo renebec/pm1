@@ -87,9 +87,9 @@
     {{i['Apertura'] | safe}}
             <br><br>
             <h3>Caso {{i['id']}}:</h3>
-            {{i['Caso']}}
+            {{i['Caso']  | safe}}
             <br><br>
-    <img class="mt-3 mb-3" src={{i['src1']}} alt="Caso 1" style="width:220px;height:auto">
+    <img class="mt-3 mb-3" src="{{i['src1']}}" style="width:220px;height:auto">
             </div>
         <div class="desarrollo">
     <h2 style="color:orange;"">Desarrollo:</h2>
