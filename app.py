@@ -82,7 +82,7 @@ TEMAS = [
     'src1':'https://matematicas-1.onrender.com/static/pic01 motorcycle.jpg',
     'Ejercicios': 'Con lo que hemos aprendido anteriormente, ahora buscaremos dar solución a algunas situaciones.',
     'Resuelve': '',
-    'Retroalimentación': '\n'
+    'Retroalimentación': ''\n\n
   },
   
   {
@@ -421,13 +421,13 @@ def show_tema(tema_id):
 #def list_temas():
 #  return jsonify(TEMAS)
 def list_temas():
-    # Create pretty-printed JSON
-    pretty = json.dumps(TEMAS, indent=2, ensure_ascii=False)
-    # Insert blank lines between objects
-    spaced = pretty.replace("},", "},\n")
-    # Optionally ensure a newline at end of file for POSIX friendliness
-    spaced = spaced + "\n"
-    return Response(spaced, mimetype='application/json')
+  # Pretty-print JSON
+  pretty = json.dumps(TEMAS, indent=2, ensure_ascii=False)
+  # Replace literal \n in JSON (escaped) with an actual blank line
+  processed = pretty.replace("\\n", "\n\n")
+  # (Optional) ensure trailing newline
+  processed += "\n"
+  return Response(processed, mimetype='application/json')
 
 #if __name__ == "__main__":
 #  app.run(host="0.0.0.0", port=8080, debug=True)
