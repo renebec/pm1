@@ -421,6 +421,14 @@ def show_tema(tema_id):
 def list_temas():
   return jsonify(TEMAS)
 
+  def list_temas():
+      # Produce pretty, indented JSON
+      pretty = json.dumps(TEMAS, indent=2, ensure_ascii=False)
+      # Insert a blank line between objects: replace '},\n' with '},\n\n'
+      spaced = pretty.replace("},", "},\n")
+      # Serve as JSON
+      return Response(spaced, mimetype='application/json')
+
 #if __name__ == "__main__":
 #  app.run(host="0.0.0.0", port=8080, debug=True)
 
