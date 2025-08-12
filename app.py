@@ -420,7 +420,7 @@ def show_tema(tema_id):
 @app.route("/api/temas")
 #def list_temas():
 #  return jsonify(TEMAS)
-  def list_temas():
+def list_temas():
     # Create pretty-printed JSON
     pretty = json.dumps(TEMAS, indent=2, ensure_ascii=False)
     # Insert blank lines between objects
