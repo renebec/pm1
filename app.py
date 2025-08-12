@@ -12,7 +12,7 @@ TEMAS = [
     'Parcial' : 'Parcial 1',
     'Docente(s)': 'M.C. Héctor René Becerril Cejudo',
     'UAC': 'Pensamiento Matemático I',
-    'Tema':'La información y la toma dedecisiones',
+    'Tema':'La información y la toma de decisiones',
     'Temática general': 'Experimentos y toma de decisiones en la vida cotidiana',
     'Temática específica': 'Los números como respaldo en la toma de decisiones',
     'Semestre': '1°',
