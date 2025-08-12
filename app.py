@@ -70,7 +70,7 @@ TEMAS = [
     'Cierre evidencia': 'Correo electrónico y resumen',
     'Cierre eva diag': '',
     'Cierre eva inst': 'Lista de cotejo',
-    'Cierre eva pond': 5,
+    'Cierre eva pond': 0,
     'Materiales': '',
     'Equipo': 'Computadora o dispositivo móbil',
     'Fuentes': '',
