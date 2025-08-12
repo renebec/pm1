@@ -136,7 +136,7 @@ TEMAS = [
     'Desarrollo eva inst': '',
     'Desarrollo eva pond': 10,
     'Laboratorio':'',
-    'Laboratorio tiempo total': 60,
+    'Laboratorio tiempo total': 0,
     'Laboratorio evidencia': '',
     'Laboratorio eva diag': '',
     'Laboratorio eva inst': '',
