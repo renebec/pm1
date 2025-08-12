@@ -22,8 +22,7 @@ TEMAS = [
     'Contenido': 'Conocerás acerca del poder de la matemática y del pensamiento estadístico y probabilístico en diferentes situaciones de la vida.',
     'pg': 'Progresión 1',
     'pg desc': 'Discute la importancia de la toma razonada de decisiones, tanto a nivel personal como colectivo, utilizando ejemplos reales o ficticios y de problemáticas complejas que sean significativas para valorar la recolección de datos, su organización y la aleatoriedad.<br><br>Se busca llevar al estudiantado a que aprecie el poder de la matemática y el pensamiento estadístico y probabilístico. En este punto no se espera que se resuelvan las problemáticas abordadas.',
-    'Conocimientos integradores':'Elementos del lenguaje natural que 
-son susceptibles de ser modelados o descritos a través del uso del pensamiento estadístico y probabilístico.',
+    'Conocimientos integradores':'Elementos del lenguaje natural que son susceptibles de ser modelados o descritos a través del uso del pensamiento estadístico y probabilístico.',
     'Dimensión': 'Capacidad de argumentar, justificar y conectar ideas.',
     'Categoría(s)':'<b>C2</b> Procesos de intuición y razonamiento.',
     'Subcategoría(s)':'<b>S1</b> Capacidad para observar y conjeturar. ',
