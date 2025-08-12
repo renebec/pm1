@@ -23,7 +23,7 @@
         }
         .apertura{
             padding:10px;
-            background-color:rgb(50,255,100);
+            background-color:#86FC97;
         }
         .desarrollo{
             padding:10px;
@@ -32,7 +32,7 @@
 
         .cierre{
             padding:10px;
-            background-color:rgb(250,185,200);
+            background-color:#F527B4;
         }
         .home-link1 {
             position: fixed;
@@ -55,7 +55,7 @@
             background-color: white;
         }
         .actividad {
-            background-color: #A927F5;
+            background-color: #B934EB;
             margin: 10px;
             padding: 5px;
         }
@@ -92,7 +92,7 @@
     <h2 style="color:green;">Apertura ({{i['Apertura tiempo total']}} )</h2>
     {{i['Apertura'] | safe}}
             <br><br>
-            <h3>Caso {{i['id']}}:</h3>
+            <p style="font-weight:bold; ">Caso {{i['id']}}:</p>
             {{i['Caso']  | safe}}
             <br><br>
     <img class="mt-3 mb-3" src="{{i['src1']}}" style="width:220px;height:auto">
@@ -103,13 +103,13 @@
     {{i['Desarrollo'] | safe}}
 
             <div>
-                &#8618;<a class="btn btn-primary btn-lg"  type="button"                                       href="mailto:mc.renebec@gmail.com?subject=Enviar%20actividad&body=Mi%20nombre%3A%20%3C%3C%20Aqu%C3%AD%20escribe%20tu%20NOMBRE%20COMPLETO%20%3E%3E%0D%0A%0D%0AMis%20datos%3A%20%3C%3C%20SEMESTRE%2C%20GRUPO%20y%20CARRERA%20%3E%3E%0D%0A%0D%0AN%C3%BAmero%20de%20actividad%3A%20%3C%3C%20Escribe%20aqu%C3%AD%20el%20N%C3%9AMERO%20DE%20ACTIVIDAD%20que%20env%C3%ADas%20%3E%3E%0D%0A%0D%0AInstrucciones%3A%20%3C%3C%20Adjunta%20el%20archivo%20word%20con%20la%20Actividad%20%3E%3E">Enviar actividad</a>
+                &#8618;<a class="btn btn-primary btn-lg"  type="button"                                       href="mailto:mc.renebec@gmail.com?subject=Enviar%20actividad&body=Mi%20nombre%3A%20%3C%3C%20Aqu%C3%AD%20escribe%20tu%20NOMBRE%20COMPLETO%20%3E%3E%0D%0A%0D%0AMis%20datos%3A%20%3C%3C%20SEMESTRE%2C%20GRUPO%20y%20CARRERA%20%3E%3E%0D%0A%0D%0AN%C3%BAmero%20de%20actividad%3A%20%3C%3C%20Escribe%20aqu%C3%AD%20el%20N%C3%9AMERO%20DE%20ACTIVIDAD%20que%20env%C3%ADas%20%3E%3E%0D%0A%0D%0AInstrucciones%3A%20%3C%3C%20Adjunta%20el%20archivo%20con%20la%20Actividad%20%3E%3E">Enviar actividad</a>
             </div>
            
             </div>
 
         <div class="cierre">
-            <h2 style="color:orange;"">Cierre:</h2>
+            <h2 style="color:#A11876;"">Cierre:</h2>
 
             {{i['Cierre'] | safe}}
 
