@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pm1-2025</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -62,14 +62,14 @@
 
         
     </style>
-</head>
-    <nav class="navbar fixed-top bg-white shadow-sm mb-4">
-      <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1 navtxt">Pensamiento Matemático I</span>
-      </div>
-    </nav>
-    <br>
-    <img class="mt-5" id="banner" src= "https://matematicas-1.onrender.com/static/books.jpg">  
+    </head>
+        <nav class="navbar fixed-top bg-white shadow-sm mb-4">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1 navtxt">Pensamiento Matemático</span>
+            </div>
+        </nav>
+        <br>
+        <img class="mt-5" id="banner" src= "https://matematicas-1.onrender.com/static/books.jpg">  
 <body>
     <header>
         <h1 class="text-center mt-4 mb-2" style="color:rgb(100,100,100);">
@@ -87,22 +87,22 @@
         
         <br>
         <br>
-        <a href="https://dgetaycm.sep.gob.mx/Con%C3%B3cenos/2" target="_blank">Acerca de DGETAyCM</a>&#128072;<br>
-        <a href="https://renebec.github.io/mapdgetaycm/" target="_blank">Mapa de planteles</a>&#128072;
+        <a href="https://dgetaycm.sep.gob.mx/Con%C3%B3cenos/2" target="_blank">Acerca             de DGETAyCM</a>&#128072;<br>
+        <a href="https://renebec.github.io/mapdgetaycm/" target="_blank">Mapa de                 planteles</a>&#128072;
         
         <h2 class="text-center mt-4 mb-2" style="color:rgb(100,100,100);">
             Acerca del curso
         </h2>
-        <p class="lead">El Recurso Sociocognitivo de Pensamiento Matemático se concibe de manera amplia, incluyendo la ejecución procedimental de algoritmos, la interpretación de sus resultados, y abarcando procesos intuitivos y formales como la observación, el acto de conjeturar y la argumentación, así como también la solución de problemas, la modelación de la realidad y la comunicación en contextos matemáticos. 
+        <p class="lead">El Recurso Sociocognitivo de Pensamiento Matemático se concibe             de manera amplia, incluyendo la ejecución procedimental de algoritmos, la              interpretación de sus resultados, y abarcando procesos intuitivos y                    formales como la observación, el acto de conjeturar y la argumentación,                así como también la solución de problemas, la modelación de la realidad y              la comunicación en contextos matemáticos. 
             <br>
             <br>
-            En el programa de Pensamiento Matemático I se abordan 15 progresiones de aprendizaje que tienen impacto en el logro de las metas de aprendizaje clasificadas utilizando las cuatro categorías y empleando algunas de sus subcategorías. Las metas de aprendizaje de Pensamiento Matemático refieren a lo que se espera que el estudiantado aprenda durante la trayectoria de la UAC. .</p>
+            En el programa de Pensamiento Matemático I se abordan 15 progresiones de               aprendizaje que tienen impacto en el logro de las metas de aprendizaje                 clasificadas utilizando las cuatro categorías y empleando algunas de sus               subcategorías. Las metas de aprendizaje de Pensamiento Matemático refieren             a lo que se espera que el estudiantado aprenda durante la trayectoria de               la UAC.</p>
 
         <div>            
-            {% set item = (temas | selectattr('Parcial', 'equalto', 'Parcial 1') | first) %}
+            {% set item = (temas | selectattr('Parcial', 'equalto', 'Parcial 1') |                 first) %}
             {% if item %}
-            <h2 class="text-center mt-4 mb-2" style="padding-       bottom:16px;color:rgb(100,100,100);">
-                {{item['Parcial']}}
+                <h2 class="text-center mt-4 mb-2" style="padding-                                           bottom:16px;color:rgb(100,100,100);">
+                    {{item['Parcial']}}
             </h2>
             {% endif %}
         </div>
@@ -127,7 +127,7 @@
                 {% endif %}
             {% endfor %}
 
-            <text class='partial-footer-total'>Total Ponderado: {{ ns.total }}%<text><br>
+            <text class='partial-footer-total'>Total Ponderado: {{ ns.total }}%<text>              <br>
 
             {% set ns = namespace(total=0) %}
 
@@ -141,15 +141,13 @@
                 {% endif %}
             {% endfor %}
 
-            <text class='partial-footer-total'>Total tiempo: {{ ns.total }} minutos</text>
+            <text class='partial-footer-total'>Total tiempo: {{ ns.total }}                         minutos</text>
         </div>
 
-
-
         <div>                     
-                {% set item = (temas | selectattr('Parcial', 'equalto', 'Parcial 2') | first) %}
+                {% set item = (temas | selectattr('Parcial', 'equalto', 'Parcial 2') |                 first) %}
                 {% if item %}
-                <h2 class="text-center mt-4 mb-2" style="padding-       bottom:16px;color:rgb(100,100,100);">
+                <h2 class="text-center mt-4 mb-2" style="padding-                                       bottom:16px;color:rgb(100,100,100);">
                     {{item['Parcial']}}
                 </h2>
                 {% endif %}
@@ -174,7 +172,8 @@
                 {% endif %}
             {% endfor %}
 
-            <text class= 'partial-footer-total'>Total Ponderado: {{ ns.total }}%</text><br>
+            <text class= 'partial-footer-total'>Total Ponderado: {{ ns.total }}%                   </text>        
+            <br>
 
             {% set ns = namespace(total=0) %}
 
@@ -188,14 +187,14 @@
                 {% endif %}
             {% endfor %}
 
-            <text class='partial-footer-total'>Total tiempo: {{ ns.total }} minutos</text>
+            <text class='partial-footer-total'>Total tiempo: {{ ns.total }}                         minutos</text>
         </div>
 
 
         <div>                     
-        {% set item = (temas | selectattr('Parcial', 'equalto', 'Parcial 3') | first) %}
+        {% set item = (temas | selectattr('Parcial', 'equalto', 'Parcial 3') | first)          %}
                 {% if item %}
-                <h2 class="text-center mt-4 mb-2" style="padding-       bottom:16px;color:rgb(100,100,100);">
+                <h2 class="text-center mt-4 mb-2" style="padding-                                       bottom:16px;color:rgb(100,100,100);">
                     {{item['Parcial']}}
                 </h2>
                 {% endif %}
@@ -220,7 +219,7 @@
                 {% endif %}
             {% endfor %}
 
-            <text class='partial-footer-total'>Total Ponderado: {{ ns.total }}%</text><br>
+            <text class='partial-footer-total'>Total Ponderado: {{ ns.total }}%</text>             <br>
 
             {% set ns = namespace(total=0) %}
 
@@ -234,13 +233,13 @@
                 {% endif %}
             {% endfor %}
 
-            <text class='partial-footer-total'>Total tiempo: {{ ns.total }} minutos</text>
+            <text class='partial-footer-total'>Total tiempo: {{ ns.total }}                         minutos</text>
         </div>
 
                 
 
         <div style="text-align:center;">
-            <a class="btn btn-primary btn-lg"  type="button"  href="mailto:mc.renebec@gmail.com?subject=Pregunta%20sobre%20el%20curso%20de%20Pensamiento%20Matemático%20I&body=Nombre%3A%20%3C%20escriba%20aqu%C3%AD%20su%20nombre%20completo%20%3E%0D%0ADatos%3A%20%3C%20escriba%20sus%20datos%20de%20Semestre%2C%20Grupo%20y%20Carrera%20%3E%0D%0APregunta%3A%20%3C%20escriba%20aqu%C3%AD%20su%20pregunta%20o%20comentario%20%3E%0D%0A">Contacto</a>
+            <a class="btn btn-primary btn-lg"  type="button"                                       href="mailto:mc.renebec@gmail.com?                                        subject=Pregunta%20sobre%20el%20curso%20de%20Pensamiento%20Matemático%20I&body=Nombre%3A%20%3C%20escriba%20aqu%C3%AD%20su%20nombre%20completo%20%3E%0D%0ADatos%3A%20%3C%20escriba%20sus%20datos%20de%20Semestre%2C%20Grupo%20y%20Carrera%20%3E%0D%0APregunta%3A%20%3C%20escriba%20aqu%C3%AD%20su%20pregunta%20o%20comentario%20%3E%0D%0A">Contacto</a>
         </div>
     </main>
     <footer>
