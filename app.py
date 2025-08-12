@@ -426,7 +426,7 @@ def show_tema(tema_id):
     # Insert blank lines between objects
     spaced = pretty.replace("},", "},\n")
     # Optionally ensure a newline at end of file for POSIX friendliness
-    spaced = spaced + "\n"
+    #spaced = spaced + "\n"
     return Response(spaced, mimetype='application/json')
 
 #if __name__ == "__main__":
