@@ -108,9 +108,9 @@
         
                 <div>
         
-                    {% if i.descargas %}
-                      <a href="{{ url_for('download_file', filename=i.descargas) }}">
-                        Descargar archivo: {{ i.descargas }}
+                    {% if i['descargas'] %}
+                      <a href="{{ url_for('download_file', filename=i['descargas']) }}">
+                        Descargar archivo: {{ i['descargas'] }}
                       </a>
                     {% endif %}
                 </div>
