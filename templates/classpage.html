@@ -105,19 +105,19 @@
     <br>
         </div>
         
-        <div>
-
+        
                 <div>
         
                   {% if i['descargas'] %}
-                    &nbsp;–&nbsp;
+
                     <a href="{{ url_for('download_file', filename=i['descargas']) }}">
-                      Descargar {{ i['descargas'] }}
+                      Descargar archivo: {{ i['descargas'] }}
                     </a>
+                    &nbsp;–&nbsp;
                   {% endif %}
                 </div>
 
-        </div>
+    
         
         <div class="apertura">
     <h2 style="color:green;">Apertura ({{i['Apertura tiempo total']}} minutos)</h2>
