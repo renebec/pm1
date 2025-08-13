@@ -440,7 +440,7 @@ def list_temas():
 #if __name__ == "__main__":
 #  app.run(host="0.0.0.0", port=8080, debug=True)
 
-@app.route('/download/<productos.>')
+@app.route('/download/<<filename>>')
 def download_file(filename):
     # Directory where you store the files
     files_dir = os.path.join(current_app.root_path, 'downloads')
