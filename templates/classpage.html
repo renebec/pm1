@@ -106,17 +106,17 @@
         </div>
         
         <div>
-            {% for tema in temas %}
+
                 <div>
-                  <strong>{{ tema.Parcial }}</strong>
-                  {% if tema.descargas %}
+        
+                  {% if i['descargas'] %}
                     &nbsp;–&nbsp;
-                    <a href="{{ url_for('download_file', filename=tema.descargas) }}">
-                      Descargar {{ tema.descargas }}
+                    <a href="{{ url_for('download_file', filename=i['descargas']) }}">
+                      Descargar {{ i['descargas'] }}
                     </a>
                   {% endif %}
                 </div>
-              {% endfor %}
+
         </div>
         
         <div class="apertura">
