@@ -1,4 +1,5 @@
-from flask import Flask, render_template, jsonify
+import os
+from flask import Flask, render_template, jsonify, send_from_directory, current_app
 from gevent import monkey; monkey.patch_all()
 from gevent.pywsgi import WSGIServer
 
@@ -434,7 +435,15 @@ def list_temas():
 #if __name__ == "__main__":
 #  app.run(host="0.0.0.0", port=8080, debug=True)
 
-
+@app.route('/download/<productos.csv>')
+def download_file(productos.csv):
+    # Directory where you store the files
+    files_dir = os.path.join(current_app.root_path, 'files')
+    return send_from_directory(
+        files_dir,
+        filename,
+        as_attachment=True  # Force download
+    )
 
 if __name__ == '__main__':
     http_server = WSGIServer(('0.0.0.0', 8080), app)

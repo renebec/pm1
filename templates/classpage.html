@@ -99,6 +99,15 @@
 
     <br>
         </div>
+        <div>
+        {% for tema in temas %}
+          <div>
+            <h3>{{ tema.Tema }}</h3>
+            <!-- Download link: replace 'example.txt' with your file names -->
+            <a href="{{ url_for('download_file', filename='productos.csv') }}">Descargas</a>
+          </div>
+        {% endfor %}
+        </div>
         
         <div class="apertura">
     <h2 style="color:green;">Apertura ({{i['Apertura tiempo total']}} minutos)</h2>
