@@ -440,15 +440,10 @@ def list_temas():
 #if __name__ == "__main__":
 #  app.run(host="0.0.0.0", port=8080, debug=True)
 
-@app.route('/download/<filename>')
+@app.route('/download/<path:filename>')
 def download_file(filename):
-    # Directory where you store the files
-    files_dir = os.path.join(current_app.root_path, 'downloads')
-    return send_from_directory(
-        files_dir,
-        filename,
-        as_attachment=True  # Force download
-    )
+    folder = os.path.join(current_app.root_path, 'downloads')
+    return send_from_directory(folder, filename, as_attachment=True)
 
 if __name__ == '__main__':
     http_server = WSGIServer(('0.0.0.0', 8080), app)
