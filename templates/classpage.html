@@ -109,7 +109,7 @@
             {% for tema in temas %}
                 <div>
                   <strong>{{ tema.Tema }}</strong>
-                  {% if tema.recursos %}
+                  {% if tema.descargas %}
                     &nbsp;–&nbsp;
                     <a href="{{ url_for('download_file', filename=tema.descargas) }}">
                       Descargar {{ tema.descargas }}
