@@ -442,8 +442,10 @@ def list_temas():
 
 @app.route('/download/<path:filename>')
 def download_file(filename):
+    filename = secure_filename(filename)
     downloads_folder = os.path.join(current_app.root_path, 'downloads')
     return send_from_directory(downloads_folder, filename, as_attachment=True)
+  
 
 if __name__ == '__main__':
     http_server = WSGIServer(('0.0.0.0', 8080), app)
