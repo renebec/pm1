@@ -420,14 +420,15 @@ def show_tema(tema_id):
 @app.route("/api/temas")
 #def list_temas():
 #  return jsonify(TEMAS)
+@app.route("/api/temas")
 def list_temas():
-  # Pretty-print JSON
-  pretty = json.dumps(TEMAS, indent=2, ensure_ascii=False)
-  # Replace literal \n in JSON (escaped) with an actual blank line
-  processed = pretty.replace("\\n", "\n\n")
-  # (Optional) ensure trailing newline
-  processed += "\n"
-  return Response(processed, mimetype='application/json')
+    try:
+        pretty = json.dumps(TEMAS, indent=2, ensure_ascii=False)
+        formatted = pretty.replace("\\n", "\n\n") + "\n"
+        return Response(formatted, mimetype='application/json')
+    except Exception as e:
+        app.logger.error("Error in /api/temas route:\n%s", traceback.format_exc())
+        return Response("Internal server error occurred", status=500)
 
 #if __name__ == "__main__":
 #  app.run(host="0.0.0.0", port=8080, debug=True)
