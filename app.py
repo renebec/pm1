@@ -417,7 +417,7 @@ def show_tema(tema_id):
     return render_template('classpage.html', i=tema)
   
 
-@app.route("/api/temas")
+#@app.route("/api/temas")
 #def list_temas():
 #  return jsonify(TEMAS)
 @app.route("/api/temas")
