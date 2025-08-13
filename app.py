@@ -3,7 +3,7 @@ from gevent import monkey; monkey.patch_all()
 from gevent.pywsgi import WSGIServer
 
 app = Flask(__name__)
-#app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 
 TEMAS = [
   {
