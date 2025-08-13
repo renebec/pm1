@@ -106,13 +106,17 @@
         </div>
         
         <div>
-            {% for i in temas %}
-              <div class="descargas">
-                <h3>{{ i.descargas }}</h3>
-                <!-- Download link using the descarga filename -->
-                <a href="{{ url_for('download_file', filename=i.descargas) }}">Archivos para descargar</a>
-              </div>
-            {% endfor %}
+            {% for tema in temas %}
+                <div>
+                  <strong>{{ tema.Tema }}</strong>
+                  {% if tema.recursos %}
+                    &nbsp;–&nbsp;
+                    <a href="{{ url_for('download_file', filename=tema.descargas) }}">
+                      Descargar {{ tema.descargas }}
+                    </a>
+                  {% endif %}
+                </div>
+              {% endfor %}
         </div>
         
         <div class="apertura">
