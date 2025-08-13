@@ -100,13 +100,13 @@
     <br>
         </div>
         <div>
-        {% for tema in temas %}
-          <div>
-            <h3>{{ tema.Tema }}</h3>
-            <!-- Download link: replace 'example.txt' with your file names -->
-            <a href="{{ url_for('download_file', filename='productos.csv') }}">Descargas</a>
-          </div>
-        {% endfor %}
+            {% for i in temas %}
+              <div class="tema">
+                <h3>{{ i.descargas }}</h3>
+                <!-- Download link using the descarga filename -->
+                <a href="{{ url_for('download_file', filename=tema.descarga) }}">Archivos para descargar</a>
+              </div>
+            {% endfor %}
         </div>
         
         <div class="apertura">

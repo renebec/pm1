@@ -9,6 +9,7 @@ app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 TEMAS = [
   {
     'id':1,
+    'descargas':'productos.csv',
     'Plantel': 'CBTA 205',
     'Parcial' : 'Parcial 1',
     'Docente(s)': 'M.C. Héctor René Becerril Cejudo',
@@ -88,6 +89,7 @@ TEMAS = [
   
   {
     'id':2,
+    'descargas':'',
     'Plantel': 'CBTA 205',
     'Parcial' : 'Parcial 1',
     'Docente(s)': 'M.C. Héctor René Becerril Cejudo',
@@ -167,6 +169,7 @@ TEMAS = [
   
   {
     'id':3,
+    'descargas':'',
     'Plantel': 'CBTA 205',
     'Parcial' : 'Parcial 1',
     'Docente(s)': 'M.C. Héctor René Becerril Cejudo',
@@ -244,6 +247,7 @@ TEMAS = [
   },
   {
     'id':4,
+    'descargas':'',
     'Plantel': 'CBTA 205',
     'Parcial' : 'Parcial 1',
     'Docente(s)': 'M.C. Héctor René Becerril Cejudo',
@@ -322,6 +326,7 @@ TEMAS = [
   },
   {
   'id':5,
+    'descargas':'',
     'Plantel': 'CBTA 205',
     'Parcial' : 'Parcial 2',
     'Docente(s)': 'M.C. Héctor René Becerril Cejudo',
@@ -435,10 +440,10 @@ def list_temas():
 #if __name__ == "__main__":
 #  app.run(host="0.0.0.0", port=8080, debug=True)
 
-@app.route('/download/<productos.csv>')
-def download_file(productos.csv):
+@app.route('/download/<productos.>')
+def download_file(filename):
     # Directory where you store the files
-    files_dir = os.path.join(current_app.root_path, 'files')
+    files_dir = os.path.join(current_app.root_path, 'downloads')
     return send_from_directory(
         files_dir,
         filename,
