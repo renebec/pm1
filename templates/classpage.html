@@ -110,7 +110,7 @@
               <div class="descargas">
                 <h3>{{ i.descargas }}</h3>
                 <!-- Download link using the descarga filename -->
-                <a href="{{ url_for('download_file', filename=tema.descarga) }}">Archivos para descargar</a>
+                <a href="{{ url_for('download_file', filename=i.descargas) }}">Archivos para descargar</a>
               </div>
             {% endfor %}
         </div>
