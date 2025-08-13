@@ -107,9 +107,8 @@
         
         
                 <div>
-        
                     {% if i['descargas'] %}
-                      <a href="{{ url_for('download_file', filename=i['descargas']) }}">
+                      <a href="{{ url_for('static', filename=i.descargas) }}" download>
                         Descargar archivo: {{ i['descargas'] }}
                       </a>
                     {% endif %}

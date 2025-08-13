@@ -9,7 +9,7 @@ app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 TEMAS = [
   {
     'id':1,
-    'descargas':'"productos.csv"',
+    'descargas':'productos.csv',
     'Plantel': 'CBTA 205',
     'Parcial' : 'Parcial 1',
     'Docente(s)': 'M.C. Héctor René Becerril Cejudo',
@@ -443,8 +443,8 @@ def list_temas():
 @app.route('/download/<path:filename>')
 def download_file(filename):
     filename = secure_filename(filename)
-    downloads_folder = os.path.join(current_app.root_path, 'static')
-    return send_from_directory(downloads_folder, filename, as_attachment=True)
+    static_folder = current_app.static_folder  # Usually 'static'
+    return send_from_directory(static_folder, filename, as_attachment=True)
   
 
 if __name__ == '__main__':
