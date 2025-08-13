@@ -417,19 +417,19 @@ def show_tema(tema_id):
     return render_template('classpage.html', i=tema)
   
 
-#@app.route("/api/temas")
-#def list_temas():
-#  return jsonify(TEMAS)
-
 @app.route("/api/temas")
 def list_temas():
-    try:
-        pretty = json.dumps(TEMAS, indent=2, ensure_ascii=False)
-        formatted = pretty.replace("\\n", "\n\n") + "\n"
-        return Response(formatted, mimetype='application/json')
-    except Exception as e:
-        app.logger.error("Error in /api/temas route:\n%s", traceback.format_exc())
-        return Response("Internal server error occurred", status=500)
+  return jsonify(TEMAS)
+
+#@app.route("/api/temas")
+#def list_temas():
+#    try:
+#        pretty = json.dumps(TEMAS, indent=2, ensure_ascii=False)
+#        formatted = pretty.replace("\\n", "\n\n") + "\n"
+#        return Response(formatted, mimetype='application/json')
+#    except Exception as e:
+#        app.logger.error("Error in /api/temas route:\n%s", traceback.format_exc())
+#        return Response("Internal server error occurred", status=500)
 
 #if __name__ == "__main__":
 #  app.run(host="0.0.0.0", port=8080, debug=True)
