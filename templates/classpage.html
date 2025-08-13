@@ -72,6 +72,11 @@
             height:auto;
         }
 
+        .descargas {
+            background-color: #CB4CF9;
+            color:#FED8F8;
+        }
+
 
     </style>
 </head>
@@ -99,9 +104,10 @@
 
     <br>
         </div>
+        
         <div>
             {% for i in temas %}
-              <div class="tema">
+              <div class="descargas">
                 <h3>{{ i.descargas }}</h3>
                 <!-- Download link using the descarga filename -->
                 <a href="{{ url_for('download_file', filename=tema.descarga) }}">Archivos para descargar</a>
