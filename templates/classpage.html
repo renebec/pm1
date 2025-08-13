@@ -108,7 +108,7 @@
         <div>
             {% for tema in temas %}
                 <div>
-                  <strong>{{ tema.Tema }}</strong>
+                  <strong>{{ tema.Parcial }}</strong>
                   {% if tema.descargas %}
                     &nbsp;–&nbsp;
                     <a href="{{ url_for('download_file', filename=tema.descargas) }}">
