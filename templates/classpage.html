@@ -36,15 +36,16 @@
             background-color:rgba(250, 117, 221, 0.5);
             color:#B51767;
         }
+        
         .home-link1 {
             position: fixed;
-            top: 1px;
-            left: 73%;
+            top: 30px;
+            right: 1px;
             background-color: red;
             color: yellow;
-            padding: 10px 15px;
+            padding: 2px 5px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 2px;
             z-index: 1100; /* Ensures it stays on top */
         }
         .home-link:hover {
@@ -101,32 +102,30 @@
                 font-size: 25px
         }
 
-
-
     </style>
 </head>
 <body>
     <main class="container">
+        
         <nav class="navbar fixed-top bg-white shadow-sm mb-4">
-              <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1 navtxt">{{i['Tema']}}
+            <span class="navbar-brand mb-0 h1 navtxt">
+                <div class="container-fluid row">
+                        <text class='col-9'>{{i['Tema']}}</text>
+                        <a onclick="history.back()" class="home-link1 col-3">&leftarrow; Back</a>
+                </div>
+            </span>
+        </nav>
 
-                        <a onclick="history.back()" class="home-link1 text-center">&leftarrow; Back</a>
-
-                </span> 
-              </div>
-            </nav>
         <div>
             height: 56px
         </div>
-            <br>
+        <br>
        
     <div class="mt-3 mb-3">
 
         {% set tiempo = 0 %}
                 {% set tiempo = tiempo + i['Apertura tiempo total'] + i['Desarrollo tiempo total'] + i['Laboratorio tiempo total'] + i['Cierre tiempo total'] %}
 
-        <h2></h2>
         <h3>{{i['pg']}} (Tiempo: {{tiempo}} minutos)</h3>
         {{i['pg desc'] | safe}}
 
