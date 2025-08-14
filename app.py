@@ -251,6 +251,7 @@ TEMAS = [
     'Resuelve': 'Con ayuda de tu ptofesor en clase...',
     'Retroalimentación': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
   },
+  
   {
     'id':4,
     'descargas':'',
@@ -333,7 +334,6 @@ TEMAS = [
     'Retroalimentación': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final para entregar antes de continuar con el programa.'
   },
 
-  
   {
   'id':5,
     'descargas':'',
