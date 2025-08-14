@@ -38,7 +38,7 @@
         }
         .home-link1 {
             position: fixed;
-            top: 51px;
+            top: 1px;
             left: 65%;
             background-color: red;
             color: yellow;
@@ -109,14 +109,18 @@
     <main class="container">
         <nav class="navbar fixed-top bg-white shadow-sm mb-4">
               <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1 navtxt">{{i['Tema']}}</span>
+                <span class="navbar-brand mb-0 h1 navtxt">{{i['Tema']}} 
+                    <div>
+                        <a onclick="history.back()" class="home-link1 text-center">&leftarrow; Regresar</a>
+                            </div>
+                </span> 
               </div>
             </nav>
         <div>
             height: 56px
         </div>
             <br>
-        <a onclick="history.back()" class="home-link1 text-center">&leftarrow; Regresar</a>
+       
     <div class="mt-3 mb-3">
 
         {% set tiempo = 0 %}
