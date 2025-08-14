@@ -8,6 +8,7 @@
     <title>{{i.Tema}}</title>
 
     <style>
+        
         #banner {
             display:block;
             margin-left:auto;
@@ -128,10 +129,17 @@
 
     <br>
         </div>
-        
+        <a href="#Aper" style="margin-bottom:1px;background-color:green;">Ir a Apertura</a><br>
+        <a href="#Desa" style="margin-bottom:1px;background-color:#FCF23C;color:#746F11;">Ir a Desarrollo</a><br>
+        <a href="#Cierr" style="margin-bottom:1px;background-color:#FA09B1;">Ir a Cierre</a>
+        <br>
+        <br>
+        <br>
+        <br>
         
                 <div>
                     {% if i['descargas'] %}
+                    Recursos<br>
                       <a href="{{ url_for('static', filename=i.descargas) }}" download>
                         Descargar archivo: {{ i['descargas'] }}
                       </a>
@@ -139,8 +147,8 @@
                 </div>
 
     
-        
-        <div class="apertura">
+        <div id='Aper'><br><br><br></div>
+        <div class="apertura" >
     <h2 style="color:green;">Apertura ({{i['Apertura tiempo total']}} minutos)</h2>
     {{i['Apertura'] | safe}}
             <br><br>
@@ -149,6 +157,8 @@
             <br><br>
     <img class="mt-3 mb-3" src="{{i['src1']}}">
             </div>
+
+        <div id='Desa'><br><br><br></div>
         <div class="desarrollo">
     <h2 style="color:orange;"">Desarrollo ({{i['Desarrollo tiempo total']}} minutos)</h2>
             
@@ -156,9 +166,9 @@
             <!--BOTON ENVÍO -->
             <div>
                <text class='emoji'>
-                   &#128386;
+                   &#128228;
                </text> 
-                <br>
+
                    <a class="btn btn-primary btn-lg"  type="button"                                       href="mailto:mc.renebec@gmail.com?subject=env%C3%ADo%20actividad&body=**Sustituya%20los%20campos%20con%20los%20datos%20correctos%3A%0D%0A%0D%0AMi%20nombre%3A%20%3C%3C%20JUAN%20HERN%C3%81NDEZ%20GARC%C3%8DA%20%3E%3E%0D%0A%0D%0AMis%20datos%20de%20grupo%3A%20%3C%3C%201%20A%20%3E%3E%0D%0A%0D%0AN%C3%BAmero%20de%20actividad%20o%20tarea%3A%20%3C%3C%20ACTIVIDAD%2019%20%3E%3E%0D%0A%0D%0AInstrucciones%3A%20--%20Adjunta%20el%20archivo%20con%20la%20Actividad%20--">Enviar actividad</a>
                 <br><br>
                 </div>
@@ -172,7 +182,7 @@
                 </div>
             </div>
         
-
+        <div id='Cierr'><br><br><br></div>
         <div class="cierre">
             <h2 style="color:#B51767;"">Cierre ({{i['Cierre tiempo total']}} minutos)</h2>
 
