@@ -149,7 +149,7 @@
                 </div>
 
     
-        <div id='Aper'><br><br><br></div>
+        <div id='Aper'><br><br></div>
         <div class="apertura" >
     <h2 style="color:green;">Apertura ({{i['Apertura tiempo total']}} minutos)</h2>
     {{i['Apertura'] | safe}}
@@ -165,15 +165,7 @@
     <h2 style="color:orange;"">Desarrollo ({{i['Desarrollo tiempo total']}} minutos)</h2>
             
     {{i['Desarrollo'] | safe}}
-            <!--BOTON ENVÍO -->
-            <div>
-               <text class='emoji'>
-                   &#128228;
-               </text> 
 
-                   <a class="btn btn-primary btn-lg"  type="button"                                       href="mailto:mc.renebec@gmail.com?subject=env%C3%ADo%20actividad&body=**Sustituya%20los%20campos%20con%20los%20datos%20correctos%3A%0D%0A%0D%0AMi%20nombre%3A%20%3C%3C%20JUAN%20HERN%C3%81NDEZ%20GARC%C3%8DA%20%3E%3E%0D%0A%0D%0AMis%20datos%20de%20grupo%3A%20%3C%3C%201%20A%20%3E%3E%0D%0A%0D%0AN%C3%BAmero%20de%20actividad%20o%20tarea%3A%20%3C%3C%20ACTIVIDAD%2019%20%3E%3E%0D%0A%0D%0AInstrucciones%3A%20--%20Adjunta%20el%20archivo%20con%20la%20Actividad%20--">Enviar actividad</a>
-                <br><br>
-                </div>
             
                 {% if i['Laboratorio tiempo total'] > 0 %}
             
@@ -182,8 +174,7 @@
                         {{i['Laboratorio'] | safe}}
                 {% endif %}
                 </div>
-            </div>
-        
+        </div>
         <div id='Cierr'><br><br><br></div>
         <div class="cierre">
             <h2 style="color:#B51767;"">Cierre ({{i['Cierre tiempo total']}} minutos)</h2>
@@ -192,6 +183,10 @@
 
                     </div>
         <br>
+        <br><br>
+        {% if i['Retroalimentación'] %}
+            {{ i['Retroalimentación'] | safe}}
+        {% endif %} <br><br>
         <div class:'fuentes'>
             <h2>
                 Fuentes:
@@ -203,11 +198,10 @@
           {% if i['Fuente2'] %}  
             <a class='referencia' href= '{{i["Fuente2"] | safe}}' target="_blank"> link 2 </a>
           {% endif %} 
-<br>
+    
           {% if i['Fuente3'] %}  
             <a class='referencia' href= '{{i["Fuente3"] | safe}}' target="_blank"> link 3 </a>
           {% endif %} 
-            
         </div>
     
         </main>
