@@ -56,6 +56,7 @@
         .navtxt{
             color:rgb(120,120,120);
             background-color: white;
+            padding: 1px;
         }
         .actividad {
             background-color: rgba(161, 37, 250, 0.7);
@@ -154,9 +155,11 @@
     <h2 style="color:green;">Apertura ({{i['Apertura tiempo total']}} minutos)</h2>
     {{i['Apertura'] | safe}}
             <br><br>
+            {% if i['Caso'] %}
             <p style="font-weight:bold; ">Caso {{i['id']}}:</p>
             {{i['Caso']  | safe}}
             <br><br>
+            {% endif %}
     <img class="mt-3 mb-3" src="{{i['src1']}}">
             </div>
 

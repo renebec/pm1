@@ -43,6 +43,7 @@ TEMAS = [
     'Evidencia I2': '',
     'Evidencia I3': '',
     'Metodología': 'aprendizaje basado en problemas,',
+    
     'Apertura': 'Se presentan los criterios de evaluación para el Primer Parcial. Se describen además los materiales básicos que se utilizarán durante el curso así como algunas herramientas digitales en las que se podrán apoyar como lo es el caso de esta aplicación web, y de sitios como <a href="https://rdrr.io/snippets/" target="_blank">rdrr</a> o el caso de <a href="https://posit.cloud/"" target="_blank">posit</a>.<br><br><p style="font-weight:bold;">Lectura grupal</p>. <b>"Sembrar certeza en tierras inciertas"</b><div class="text-center">1</div> En lo más recóndito de un frondoso valle, una pequeña comunidad se prepara para sembrar sus cultivos. Cada año, deben decidir cuánta semilla plantar, en qué terreno y cuándo iniciar la siembra. Decisiones que determinarán la cosecha —y la supervivencia— de todos.<br><br><div class="text-center">2</div>Los ancianos del lugar han registrado durante décadas lluvias, plagas, rendimientos de distintas semillas y épocas de plantación. Gracias a esos datos, ahora saben que en terrenos bajos la humedad tarda más en disiparse, y que sembrar al iniciarse la primavera reduce el riesgo de heladas.<br><br><div class="text-center">3</div>Deciden ordenar los datos: comparar los rendimientos según los suelos, correlacionar fechas de lluvia con brotes fuertes y graficar cuándo las plagas fueron más devastadoras. Así convierten información dispersa en conocimiento útil.<br><br><div class="text-center">4</div>Pero no todo está bajo control. Un año, una tormenta inesperada arrasó parte de la cosecha. Otro, una plaga surgió sin precedentes. Reconocen que la aleatoriedad —lo impredecible— también juega un papel. Ante esto, utilizan estrategias como diversificar cultivos o espaciar la siembra en fechas clave, mitigando riesgos y asegurando alguna cosecha aunque algo falle.<br><br><div class="text-center">5</div>Cada familia decide individualmente cuánto sembrar, pero comparten esfuerzos para comprar semillas resistentes o construir invernaderos improvisados. Las decisiones personales, informadas por datos y adaptadas a la incertidumbre, se retroalimentan del conocimiento colectivo: todos se benefician de información más robusta y de la experiencia compartida.<br><br><div class="text-center">6</div>La cosecha, aunque no perfecta cada año, es cada vez más estable. Aprenden que no basta con sentir o adivinar: entender, analizar, y planear con datos —y con humildad ante lo inesperado— permite tomar decisiones más sólidas.<br><br>    <div class="actividad"><b>Actividad 1</b><br>En una hoja escribe tus datos (Nombre completo, fecha, semestre, grupo y carrera) y sigue las instrucciones.<br><br>A continuación se presentan diferentes conceptos y en los paréntesis de la izquierda escribe el número de párrafo que crees que se relaciona con cada concepto.<br><br>( ) Tomar decisiones personales y colectivas.<br>( ) Recolección de datos.<br>( ) Aleatoriedad o situaciones inesperadas.<br>( ) Resultados y reflexión.<br>( ) Organizar información.<br><br>Entrega a tu profesor la hoja con la actividad realizada.</div>',
     'Apertura tiempo': 'Docente 15 - Independiente: 0',
     'Apertura tiempo total': 60,
@@ -52,6 +53,7 @@ TEMAS = [
     'Apertura eva inst': '',
     'Apertura eva pond': 1,
     'Caso': 'Juan quiere comprar una motocicleta barata pero le preocupa elegir la marca correcta, una que tenga menos probabilidad de fallar o descomponerse pronto.<br><br>¿Qué crees que podría hacer Juan para conseguir su objetivo?<br><br>Lluvia de ideas para anotar en el pintarrón.',
+    
     'Desarrollo': '<b>Situación 1:</b><br><br>Juan quiere comprar una motocicleta y existen 3 diferentes marcas que le interesan: <b>Serpux</b>, <b>Xioma</b> y <b>Ziron</b>. Juan buscó en internet cuántas motocicletas de cada marca han sido llevadas a servicio a la tienda recientemente debido a fallas y mal funcionamiento, y encontró que, entre las últimas 25 motocicletas vendidas de cada marca, la cantidad de fallas reportadas fue la siguiente:<br><br><div class="border-bottom row mx-auto text-center"><div class="col-4">Serpux:</div> <div class="col-4">Xioma:</div>  <div class="col-4">Ziron:</div></div><div class="border-bottom row mx-auto text-center"><div class="col-4">0</div> <div class="col-4">1</div><div class="col-4">4</div></div><br><br>   <div class="actividad"><b>Actividad 2</b><br> En hoja con tus datos escribe la <b>Situación 1</b> así como también los datos de la tabla de marcas de motocicletas, después escribe las siguientes preguntas y con tus propias palabras desarrolla la respuesta de cada una.<br><br>1. ¿Cuál marca presentó fallas con menor <b>frecuencia</b>?<br>2. ¿Cuál marca crees que es la que presenta fallas con mayor <b>frecuencia</b>?<br>3. ¿Cuál marca crees que tiene mayor <b>probabilidad</b> de fallar?¿Por qué?<br>4. ¿Cuál marca crees que debería comprar Juán y por qué?<br><br><p class="navtxt"><b>*Frecuencia</b> se refiere al <b>número</b> de veces que un evento se repite.</p><br><br>Antes de entregar tu actividad al profesor toma una foto de la misma y como <b>Tarea 1</b> deberás enviar la foto de la actividad por medio de correo electrónico utilizando el botón <i>"Enviar actividad"</i> que está abajo en la parte final de este recuadro.<b>*La fecha límite para enviar la Tarea 1 es el viernes 5 de septiembre a las 09:00 PM.</b></div>    <text class="emoji"> &#128228;</text><a class="btn btn-primary btn-lg"  type="button" href="mailto:mc.renebec@gmail.com?subject=env%C3%ADo%20actividad&body=**Sustituya%20los%20campos%20con%20los%20datos%20correctos%3A%0D%0A%0D%0AMi%20nombre%3A%20%3C%3C%20JUAN%20HERN%C3%81NDEZ%20GARC%C3%8DA%20%3E%3E%0D%0A%0D%0AMis%20datos%20de%20grupo%3A%20%3C%3C%201%20A%20%3E%3E%0D%0A%0D%0AN%C3%BAmero%20de%20actividad%20o%20tarea%3A%20%3C%3C%20ACTIVIDAD%2019%20%3E%3E%0D%0A%0D%0AInstrucciones%3A%20--%20Adjunta%20el%20archivo%20con%20la%20Actividad%20--">Enviar actividad</a><br><br><p style="font-weight:bold;"><br   <br>Lectura grupal</p>. <b>"Decisiones que venden: El poder de los datos en gran retail”</b><br><br><div class="text-center">1</div>Es viernes por la tarde en la sede central de Coppel, con decenas de tiendas repartidas por México. La gerenta regional, Claudia, se enfrenta a una decisión crítica: ¿cómo planificar las compras de saldo de invierno sin terminar con mucho inventario sobrante o escasez en tiendas con alta demanda?<br><br><div class="text-center">2</div>Claudia recurre al sistema de analítica avanzada que integra datos de ventas en tiempo real, patrones de compras pasadas, estacionalidad y días festivos. Utiliza herramientas de inventory optimization y forecasting predictivo, que ayudan a evitar carencias o excesos de producto. Gracias a esto, se ha logrado reducir hasta un 30 % el exceso de inventario, con ahorros visibles en costos y mejor flujo de caja.<br><br><div class="text-center">3</div>Para anticiparse a las necesidades, se aplican modelos estadísticos y de machine learning que predicen demanda según regiones, temporadas y promociones. Estos modelos también permiten ajustar precios dinámicamente, balanceando márgenes y competitividad<br><br><div class="text-center">4</div>El sistema no espera decisiones manuales: usa inteligencia artificial para detectar productos que están por expirar o quedarse sin stock, generando alertas automáticas y recomendaciones de promociones o redistribución de inventario entre sucursales.<br><br><div class="text-center">5</div>Durante una reunión semanal, Claudia muestra en tiempo real un dashboard que revela:<ul><li>Productos más vendidos por tienda.</li><li>Eficiencia del equipo de ventas según conversión y tiempos de atención.</li><li>Necesidades de reposición o promociones locales.</li></ul>Con esta información, las decisiones dejan de depender de corazonadas y se sustenta todo en evidencia cuantitativa.<br><br><div class="text-center">6</div>Gracias a estas medidas:<ul><li>Las ventas crecen en tiendas con alta rotación, al tener productos adecuados en el momento correcto.</li><li>El inventario se reduce en tiendas con baja demanda, evitando pérdidas innecesarias.</li><li>Se promueve una cultura de decisiones fundamentadas en datos y análisis, y no en intuiciones.</li></ul><br><div class="text-center">7</div>En una gran tienda como Coppel, el uso estratégico de matemáticas, tecnología e información convierte decisiones complejas en acciones efectivas, beneficiando tanto lo personal (el trabajo de Claudia) como el éxito colectivo del negocio.<br>   <div class="actividad"><b>Actividad 3</b><br><br>En tus notas escribe las siguientes preguntas y responde con tus propias palabras con base en la lectura anterior.<br<<br><ul><li>¿Cómo se llama el personaje principal y en que consiste el trabajo que realiza?</li><li>¿Cuál era la situación que le preocupaba al personaje principal?</li><li>¿Qué consideras que fue la clave para que el personaje principal saliera con éxito de la situación?</li><li>¿Cuáles fueron las herramientas o conocimientos principales que le ayudaron al personaje a solucionar la situación?</li></ul><br><br><br>Antes de entregar tu actividad al profesor toma una foto de la misma y como <b>Tarea 2</b> deberás enviar la foto de la actividad por medio de correo electrónico utilizando el botón <i>"Enviar actividad"</i> que está abajo en la parte final de este recuadro. <b>*La fecha límite para enviar la Tarea 2 es el viernes 5 de septiembre a las 09:00 PM.</b></div>   <text class="emoji"> &#128228;</text><a class="btn btn-primary btn-lg"  type="button" href="mailto:mc.renebec@gmail.com?subject=env%C3%ADo%20actividad&body=**Sustituya%20los%20campos%20con%20los%20datos%20correctos%3A%0D%0A%0D%0AMi%20nombre%3A%20%3C%3C%20JUAN%20HERN%C3%81NDEZ%20GARC%C3%8DA%20%3E%3E%0D%0A%0D%0AMis%20datos%20de%20grupo%3A%20%3C%3C%201%20A%20%3E%3E%0D%0A%0D%0AN%C3%BAmero%20de%20actividad%20o%20tarea%3A%20%3C%3C%20ACTIVIDAD%2019%20%3E%3E%0D%0A%0D%0AInstrucciones%3A%20--%20Adjunta%20el%20archivo%20con%20la%20Actividad%20--">Enviar actividad</a><br><br>',
     'Desarrollo tiempo': 'Docente: 30 min - Independiente: 0 min',
     'Desarrollo tiempo total': 120,
@@ -66,6 +68,7 @@ TEMAS = [
     'Laboratorio eva diag': 'Práctica usando una computadora.',
     'Laboratorio eva inst': '',
     'Laboratorio eva pond': 0,
+    
     'Cierre': 'Esta mos por concluir el Primer Parcial de tu curso de <b>Pensamiento Matemático I</b>. Contesta el siguiente <b>cuestionario</b> desarrollando las respuestas lo mejor que puedas. ¡Éxito!    <div class="actividad"><b>Actividad 4</b><br><b>Cuestionario</b><br><br>1. ¿A qué se refiere el término <b>Frecuencia</b>?<br><br>2. Explica con tus palabras que entiendes al oir el témino <b>Aleatorio</b><br><br>3. Con tus propias palabras explica las ventajas que notaste al usar el lenguaje "R" en el análisis de datos.<br><br>4. De acuerdo a lo visto en las <b>Lecturas 1 y 2</b> explica en que radica la importancia de la <b>recolección de datos</b>.<br><br>5. De acuerdo a lo visto en las <b>Lecturas 1 y 2</b> ¿por qué consideras que sería importante que las personas desarrollen habilidades en el uso de las matemáticas y de las tecnologías digitales?<br><br>6. Explica que consideras que fue lo más importante para que Juan pudiera tomar la mejor decisión a la hora de elegir cuál motocicleta comprar.<br><br>Antes de entregar tu actividad al profesor toma una foto de la misma y como <b>Tarea 3</b> deberás enviar la foto de la actividad por medio de correo electrónico utilizando el botón <i>"Enviar actividad"</i> que está abajo en la parte final de este recuadro. <b>*La fecha límite para enviar la Tarea 3 es el viernes 5 de septiembre a las 09:00 PM.</b></div><text class="emoji"> &#128228;</text><a class="btn btn-primary btn-lg"  type="button" href="mailto:mc.renebec@gmail.com?subject=env%C3%ADo%20actividad&body=**Sustituya%20los%20campos%20con%20los%20datos%20correctos%3A%0D%0A%0D%0AMi%20nombre%3A%20%3C%3C%20JUAN%20HERN%C3%81NDEZ%20GARC%C3%8DA%20%3E%3E%0D%0A%0D%0AMis%20datos%20de%20grupo%3A%20%3C%3C%201%20A%20%3E%3E%0D%0A%0D%0AN%C3%BAmero%20de%20actividad%20o%20tarea%3A%20%3C%3C%20ACTIVIDAD%2019%20%3E%3E%0D%0A%0D%0AInstrucciones%3A%20--%20Adjunta%20el%20archivo%20con%20la%20Actividad%20--">Enviar actividad</a><br><br>',
     'Cierre tiempo': 'Docente 15 - Independiente 0',
     'Cierre tiempo total': 60,
@@ -74,6 +77,7 @@ TEMAS = [
     'Cierre eva diag': '',
     'Cierre eva inst': '',
     'Cierre eva pond': 2,
+    
     'Materiales': '',
     'Equipo': 'Computadora o dispositivo móbil',
     'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -96,9 +100,9 @@ TEMAS = [
     'Parcial' : 'Parcial 1',
     'Docente(s)': 'M.C. Héctor René Becerril Cejudo',
     'UAC': 'Pensamiento Matemático I',
-    'Tema':'Variabilidad e Incertidumbre',
+    'Tema':'Incertidumbre, variabilidad y equiprobabilidad',
     'Temática general': 'Nociones de probabilidad',
-    'Temática específica': 'Variabilidad e Incertidumbre',
+    'Temática específica': 'Incertidumbre, variabilidad y equiprobabilidad',
     'Semestre': '1°',
     'Grupos': 'A, B y C',
     'Horas docente': '60 mins',
@@ -125,37 +129,41 @@ TEMAS = [
     'Evidencia I2': '',
     'Evidencia I3': '',
     'Metodología': 'Aprendizaje situado',
-    'Apertura': '',
+    
+    'Apertura': '<b>Lectura grupal</b><br><br><b>La Rifa de los Dados Justos</b><br>En el pueblo de Matemax, se hace una rifa cada semana para decidir quién cuida a Koko, la mascota escolar. Todos dicen que la rifa es "aleatoria", es decir al azar, pero un grupo de estudiantes notó que siempre ganaban las mismas personas. Decidieron investigar: ¿Realmente todos tienen la misma oportunidad de ganar?<br><br>Para decidir si la rifa es justa, uno de los estudiantes propuso lanzar un dado. “¡Si todos los números tienen la misma chance, será más justo!”, dijo. Así descubrieron una palabra clave: equiprobabilidad.<br><br><ul><li>¿Qué significa que algo sea “justo” en una rifa?</li><li>¿Qué harías tú para que todos tengan las mismas probabilidades?</li><li>¿Qué objetos conoces que tienen "resultados aleatorios"?</li></ul><br>Decimos que un evento es equiprobable cuando todas las opciones tienen la misma probabilidad de ocurrir. Por ejemplo, lanzar una moneda es un experimento aleatorio cuyo <b>Espacio Muestral</b> tiene dos resultados posibles (cara o cruz), y ambos tienen la misma posibilidad de ocurrir: 50% o 1/2.<br><br><div class="navtxt"><b>Espacio muestral (M)</b> es el conjunto de todos los posibles resultados de un experimento. Por ejemplo, al lanzar una moneda, el espacio muestral es:<br> <div class="text-center" style="font-weight:bold;"> M = { Ágila, Sol } </div>.</div>',
     'Apertura tiempo': '',
-    'Apertura tiempo total': 15,
+    'Apertura tiempo total': 20,
     'Apertura técnicas': '',
     'Apertura evidencia': '',
     'Apertura eva diag': '',
     'Apertura eva inst': '',
     'Apertura eva pond': 0,
-    'Caso': 'Se sembraron 15 semillas de jitomate y en una bitácora se registraron datos de sus etapas de desarrollo como:<br> <ul><li>a) días trascurridos desde la siembra hasta la germinación</li><li>b) días transcurridos desde la siembra hasta la aparición de las primeras hoja verdaderas</li><li> c) número de hojas después de 30 días de la germinación</li><li>d) número de hojas después de 45 días de la germinación.</li></ul>',
+    'Caso': '',
+    
     'Desarrollo': '',
     'Desarrollo tiempo': '',
-    'Desarrollo tiempo total': 30,
+    'Desarrollo tiempo total': 60,
     'Desarrollo técnicas': '',
     'Desarrollo evidencia': '',
     'Desarrollo eva diag': '',
     'Desarrollo eva inst': '',
-    'Desarrollo eva pond': 10,
+    'Desarrollo eva pond': 2,
     'Laboratorio':'',
-    'Laboratorio tiempo total': 0,
+    'Laboratorio tiempo total': 60,
     'Laboratorio evidencia': '',
     'Laboratorio eva diag': '',
     'Laboratorio eva inst': '',
-    'Laboratorio eva pond': 0,
+    'Laboratorio eva pond': 2,
+    
     'Cierre': '',
     'Cierre tiempo': '',
-    'Cierre tiempo total': 15,
+    'Cierre tiempo total': 40,
     'Cierre técnicas': '',
     'Cierre evidencia': '',
     'Cierre eva diag': '',
     'Cierre eva inst': '',
-    'Cierre eva pond': 15,
+    'Cierre eva pond': 1,
+    
     'Materiales': '',
     'Equipo': '',
     'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -164,8 +172,8 @@ TEMAS = [
     'Elaboró':'',
     'Revisó': '',
     'Avaló': '',
-    'Ponderación pg': 30,
-'src1':'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHVoZjZtczZwbXJqbms4YmNvZ2lidjk2cDBjcmxqZzloNmR1bnc0eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JIX9t2j0ZTN9S/giphy.gif',
+    'Ponderación pg': 5,
+'src1':'https://matematicas-1.onrender.com/static/coin hands.jpg',
     'Ejercicios': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
     'Resuelve': 'Para resolver este problema ...',
     'Retroalimentación': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
@@ -207,6 +215,7 @@ TEMAS = [
     'Evidencia I2': '',
     'Evidencia I3': '',
     'Metodología': 'Aprendizaje situado',
+    
     'Apertura': '',
     'Apertura tiempo': '',
     'Apertura tiempo total': 10,
@@ -216,6 +225,7 @@ TEMAS = [
     'Apertura eva inst': '',
     'Apertura eva pond': 0,
     'Caso': '¿Recuerdas la lectura acerca de ...',
+    
     'Desarrollo': '',
     'Desarrollo tiempo': '',
     'Desarrollo tiempo total': 30,
@@ -230,6 +240,7 @@ TEMAS = [
     'Laboratorio eva diag': '',
     'Laboratorio eva inst': '',
     'Laboratorio eva pond': 0,
+    
     'Cierre': '',
     'Cierre tiempo': '',
     'Cierre tiempo total': 20,
@@ -238,6 +249,7 @@ TEMAS = [
     'Cierre eva diag': '',
     'Cierre eva inst': '',
     'Cierre eva pond': 15,
+    
     'Materiales': '',
     'Equipo': '',
     'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -288,6 +300,7 @@ TEMAS = [
     'Evidencia I2': '',
     'Evidencia I3': '',
     'Metodología': 'Aprendizaje situado',
+    
     'Apertura': '',
     'Apertura tiempo': '',
     'Apertura tiempo total': 20,
@@ -297,6 +310,7 @@ TEMAS = [
     'Apertura eva inst': '',
     'Apertura eva pond': 0,
     'Caso': 'En un grupo de 10 personas, 3 personas son hombres y 7 son mujeres...',
+    
     'Desarrollo': '',
     'Desarrollo tiempo': '',
     'Desarrollo tiempo total': 110,
@@ -311,6 +325,7 @@ TEMAS = [
     'Laboratorio eva diag': '',
     'Laboratorio eva inst': '',
     'Laboratorio eva pond': 0,
+    
     'Cierre': '',
     'Cierre tiempo': '',
     'Cierre tiempo total': 110,
@@ -319,6 +334,7 @@ TEMAS = [
     'Cierre eva diag': '',
     'Cierre eva inst': '',
     'Cierre eva pond': 15,
+    
     'Materiales': '',
     'Equipo': '',
     'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -370,6 +386,7 @@ TEMAS = [
     'Evidencia I2': '',
     'Evidencia I3': '',
     'Metodología': 'Aprendizaje situado',
+    
     'Apertura': '',
     'Apertura tiempo': '',
     'Apertura tiempo total': 30,
@@ -379,6 +396,7 @@ TEMAS = [
     'Apertura eva inst': '',
     'Apertura eva pond': 0,
     'Caso': 'En un grupo de 10 personas, 3 personas son ...',
+    
     'Desarrollo': '',
     'Desarrollo tiempo': '',
     'Desarrollo tiempo total': 120,
@@ -393,6 +411,7 @@ TEMAS = [
     'Laboratorio eva diag': '',
     'Laboratorio eva inst': '',
     'Laboratorio eva pond': 0,
+    
     'Cierre': '',
     'Cierre tiempo': '',
     'Cierre tiempo total': 60,
@@ -401,6 +420,7 @@ TEMAS = [
     'Cierre eva diag': '',
     'Cierre eva inst': '',
     'Cierre eva pond': 15,
+    
     'Materiales': '',
     'Equipo': '',
     'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -453,6 +473,7 @@ TEMAS = [
       'Evidencia I2': '',
       'Evidencia I3': '',
       'Metodología': 'Aprendizaje situado',
+    
       'Apertura': '',
       'Apertura tiempo': '',
       'Apertura tiempo total': 30,
@@ -462,6 +483,7 @@ TEMAS = [
       'Apertura eva inst': '',
       'Apertura eva pond': 0,
       'Caso': 'En un grupo de 10 personas, 3 personas son ...',
+    
       'Desarrollo': '',
       'Desarrollo tiempo': '',
       'Desarrollo tiempo total': 120,
@@ -476,6 +498,7 @@ TEMAS = [
       'Laboratorio eva diag': '',
       'Laboratorio eva inst': '',
       'Laboratorio eva pond': 0,
+    
       'Cierre': '',
       'Cierre tiempo': '',
       'Cierre tiempo total': 60,
@@ -484,6 +507,7 @@ TEMAS = [
       'Cierre eva diag': '',
       'Cierre eva inst': '',
       'Cierre eva pond': 15,
+    
       'Materiales': '',
       'Equipo': '',
       'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -536,6 +560,7 @@ TEMAS = [
     'Evidencia I2': '',
     'Evidencia I3': '',
     'Metodología': 'Aprendizaje situado',
+    
     'Apertura': '',
     'Apertura tiempo': '',
     'Apertura tiempo total': 30,
@@ -545,6 +570,7 @@ TEMAS = [
     'Apertura eva inst': '',
     'Apertura eva pond': 0,
     'Caso': 'En un grupo de 10 personas, 3 personas son ...',
+    
     'Desarrollo': '',
     'Desarrollo tiempo': '',
     'Desarrollo tiempo total': 120,
@@ -559,6 +585,7 @@ TEMAS = [
     'Laboratorio eva diag': '',
     'Laboratorio eva inst': '',
     'Laboratorio eva pond': 0,
+    
     'Cierre': '',
     'Cierre tiempo': '',
     'Cierre tiempo total': 60,
@@ -567,6 +594,7 @@ TEMAS = [
     'Cierre eva diag': '',
     'Cierre eva inst': '',
     'Cierre eva pond': 15,
+    
     'Materiales': '',
     'Equipo': '',
     'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -619,6 +647,7 @@ TEMAS = [
       'Evidencia I2': '',
       'Evidencia I3': '',
       'Metodología': 'Aprendizaje situado',
+    
       'Apertura': '',
       'Apertura tiempo': '',
       'Apertura tiempo total': 30,
@@ -628,6 +657,7 @@ TEMAS = [
       'Apertura eva inst': '',
       'Apertura eva pond': 0,
       'Caso': 'En un grupo de 10 personas, 3 personas son ...',
+    
       'Desarrollo': '',
       'Desarrollo tiempo': '',
       'Desarrollo tiempo total': 120,
@@ -642,6 +672,7 @@ TEMAS = [
       'Laboratorio eva diag': '',
       'Laboratorio eva inst': '',
       'Laboratorio eva pond': 0,
+    
       'Cierre': '',
       'Cierre tiempo': '',
       'Cierre tiempo total': 60,
@@ -650,6 +681,7 @@ TEMAS = [
       'Cierre eva diag': '',
       'Cierre eva inst': '',
       'Cierre eva pond': 15,
+    
       'Materiales': '',
       'Equipo': '',
       'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -702,6 +734,7 @@ TEMAS = [
       'Evidencia I2': '',
       'Evidencia I3': '',
       'Metodología': 'Aprendizaje situado',
+    
       'Apertura': '',
       'Apertura tiempo': '',
       'Apertura tiempo total': 30,
@@ -711,6 +744,7 @@ TEMAS = [
       'Apertura eva inst': '',
       'Apertura eva pond': 0,
       'Caso': 'En un grupo de 10 personas, 3 personas son ...',
+    
       'Desarrollo': '',
       'Desarrollo tiempo': '',
       'Desarrollo tiempo total': 120,
@@ -725,6 +759,7 @@ TEMAS = [
       'Laboratorio eva diag': '',
       'Laboratorio eva inst': '',
       'Laboratorio eva pond': 0,
+    
       'Cierre': '',
       'Cierre tiempo': '',
       'Cierre tiempo total': 60,
@@ -733,6 +768,7 @@ TEMAS = [
       'Cierre eva diag': '',
       'Cierre eva inst': '',
       'Cierre eva pond': 15,
+    
       'Materiales': '',
       'Equipo': '',
       'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -785,6 +821,7 @@ TEMAS = [
       'Evidencia I2': '',
       'Evidencia I3': '',
       'Metodología': 'Aprendizaje situado',
+      
       'Apertura': '',
       'Apertura tiempo': '',
       'Apertura tiempo total': 30,
@@ -794,6 +831,7 @@ TEMAS = [
       'Apertura eva inst': '',
       'Apertura eva pond': 0,
       'Caso': 'En un grupo de 10 personas, 3 personas son ...',
+      
       'Desarrollo': '',
       'Desarrollo tiempo': '',
       'Desarrollo tiempo total': 120,
@@ -808,6 +846,7 @@ TEMAS = [
       'Laboratorio eva diag': '',
       'Laboratorio eva inst': '',
       'Laboratorio eva pond': 0,
+      
       'Cierre': '',
       'Cierre tiempo': '',
       'Cierre tiempo total': 60,
@@ -816,6 +855,7 @@ TEMAS = [
       'Cierre eva diag': '',
       'Cierre eva inst': '',
       'Cierre eva pond': 15,
+      
       'Materiales': '',
       'Equipo': '',
       'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -868,6 +908,7 @@ TEMAS = [
     'Evidencia I2': '',
     'Evidencia I3': '',
     'Metodología': 'Aprendizaje situado',
+      
     'Apertura': '',
     'Apertura tiempo': '',
     'Apertura tiempo total': 30,
@@ -877,6 +918,7 @@ TEMAS = [
     'Apertura eva inst': '',
     'Apertura eva pond': 0,
     'Caso': 'En un grupo de 10 personas, 3 personas son ...',
+      
     'Desarrollo': '',
     'Desarrollo tiempo': '',
     'Desarrollo tiempo total': 120,
@@ -891,6 +933,7 @@ TEMAS = [
     'Laboratorio eva diag': '',
     'Laboratorio eva inst': '',
     'Laboratorio eva pond': 0,
+      
     'Cierre': '',
     'Cierre tiempo': '',
     'Cierre tiempo total': 60,
@@ -899,6 +942,7 @@ TEMAS = [
     'Cierre eva diag': '',
     'Cierre eva inst': '',
     'Cierre eva pond': 15,
+      
     'Materiales': '',
     'Equipo': '',
     'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -951,6 +995,7 @@ TEMAS = [
       'Evidencia I2': '',
       'Evidencia I3': '',
       'Metodología': 'Aprendizaje situado',
+      
       'Apertura': '',
       'Apertura tiempo': '',
       'Apertura tiempo total': 30,
@@ -960,6 +1005,7 @@ TEMAS = [
       'Apertura eva inst': '',
       'Apertura eva pond': 0,
       'Caso': 'En un grupo de 10 personas, 3 personas son ...',
+      
       'Desarrollo': '',
       'Desarrollo tiempo': '',
       'Desarrollo tiempo total': 120,
@@ -974,6 +1020,7 @@ TEMAS = [
       'Laboratorio eva diag': '',
       'Laboratorio eva inst': '',
       'Laboratorio eva pond': 0,
+      
       'Cierre': '',
       'Cierre tiempo': '',
       'Cierre tiempo total': 60,
@@ -982,6 +1029,7 @@ TEMAS = [
       'Cierre eva diag': '',
       'Cierre eva inst': '',
       'Cierre eva pond': 15,
+      
       'Materiales': '',
       'Equipo': '',
       'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -1034,6 +1082,7 @@ TEMAS = [
       'Evidencia I2': '',
       'Evidencia I3': '',
       'Metodología': 'Aprendizaje situado',
+      
       'Apertura': '',
       'Apertura tiempo': '',
       'Apertura tiempo total': 30,
@@ -1043,6 +1092,7 @@ TEMAS = [
       'Apertura eva inst': '',
       'Apertura eva pond': 0,
       'Caso': 'En un grupo de 10 personas, 3 personas son ...',
+      
       'Desarrollo': '',
       'Desarrollo tiempo': '',
       'Desarrollo tiempo total': 120,
@@ -1057,6 +1107,7 @@ TEMAS = [
       'Laboratorio eva diag': '',
       'Laboratorio eva inst': '',
       'Laboratorio eva pond': 0,
+      
       'Cierre': '',
       'Cierre tiempo': '',
       'Cierre tiempo total': 60,
@@ -1065,6 +1116,7 @@ TEMAS = [
       'Cierre eva diag': '',
       'Cierre eva inst': '',
       'Cierre eva pond': 15,
+      
       'Materiales': '',
       'Equipo': '',
       'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -1117,6 +1169,7 @@ TEMAS = [
       'Evidencia I2': '',
       'Evidencia I3': '',
       'Metodología': 'Aprendizaje situado',
+      
       'Apertura': '',
       'Apertura tiempo': '',
       'Apertura tiempo total': 30,
@@ -1126,6 +1179,7 @@ TEMAS = [
       'Apertura eva inst': '',
       'Apertura eva pond': 0,
       'Caso': 'En un grupo de 10 personas, 3 personas son ...',
+      
       'Desarrollo': '',
       'Desarrollo tiempo': '',
       'Desarrollo tiempo total': 120,
@@ -1140,6 +1194,7 @@ TEMAS = [
       'Laboratorio eva diag': '',
       'Laboratorio eva inst': '',
       'Laboratorio eva pond': 0,
+      
       'Cierre': '',
       'Cierre tiempo': '',
       'Cierre tiempo total': 60,
@@ -1148,6 +1203,7 @@ TEMAS = [
       'Cierre eva diag': '',
       'Cierre eva inst': '',
       'Cierre eva pond': 15,
+      
       'Materiales': '',
       'Equipo': '',
       'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
@@ -1200,6 +1256,7 @@ TEMAS = [
       'Evidencia I2': '',
       'Evidencia I3': '',
       'Metodología': 'Aprendizaje situado',
+      
       'Apertura': '',
       'Apertura tiempo': '',
       'Apertura tiempo total': 30,
@@ -1209,6 +1266,7 @@ TEMAS = [
       'Apertura eva inst': '',
       'Apertura eva pond': 0,
       'Caso': 'En un grupo de 10 personas, 3 personas son ...',
+      
       'Desarrollo': '',
       'Desarrollo tiempo': '',
       'Desarrollo tiempo total': 120,
@@ -1223,6 +1281,7 @@ TEMAS = [
       'Laboratorio eva diag': '',
       'Laboratorio eva inst': '',
       'Laboratorio eva pond': 0,
+      
       'Cierre': '',
       'Cierre tiempo': '',
       'Cierre tiempo total': 60,
@@ -1231,6 +1290,7 @@ TEMAS = [
       'Cierre eva diag': '',
       'Cierre eva inst': '',
       'Cierre eva pond': 15,
+      
       'Materiales': '',
       'Equipo': '',
       'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
