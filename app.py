@@ -130,7 +130,7 @@ TEMAS = [
     'Evidencia I3': '',
     'Metodología': 'Aprendizaje situado',
     
-    'Apertura': '<b>Lectura grupal</b><br><br><b>La Rifa de los Dados Justos</b><br>En el pueblo de Matemax, se hace una rifa cada semana para decidir quién cuida a Koko, la mascota escolar. Todos dicen que la rifa es "aleatoria", es decir al azar, pero un grupo de estudiantes notó que siempre ganaban las mismas personas. Decidieron investigar: ¿Realmente todos tienen la misma oportunidad de ganar?<br><br>Para decidir si la rifa es justa, uno de los estudiantes propuso lanzar un dado. “¡Si todos los números tienen la misma chance, será más justo!”, dijo. Así descubrieron una palabra clave: equiprobabilidad.<br><br><ul><li>¿Qué significa que algo sea “justo” en una rifa?</li><li>¿Qué harías tú para que todos tengan las mismas probabilidades?</li><li>¿Qué objetos conoces que tienen "resultados aleatorios"?</li></ul><br>Decimos que un evento es equiprobable cuando todas las opciones tienen la misma probabilidad de ocurrir. Por ejemplo, lanzar una moneda es un experimento aleatorio cuyo <b>Espacio Muestral</b> tiene dos resultados posibles (cara o cruz), y ambos tienen la misma posibilidad de ocurrir: 50% o 1/2.<br><br><div class="navtxt"><b>Espacio muestral (M)</b> es el conjunto de todos los posibles resultados de un experimento. Por ejemplo, al lanzar una moneda, el espacio muestral es:<br> <div class="text-center" style="font-weight:bold;"> M = { Ágila, Sol } </div>.</div>',
+    'Apertura': '<b>Lectura grupal</b><br><br><b>La Rifa de los Dados Justos</b><br>En el pueblo de Matemax, se hace una rifa cada semana para decidir quién cuida a Koko, la mascota escolar. Todos dicen que la rifa es "aleatoria", es decir al azar, pero un grupo de estudiantes notó que siempre ganaban las mismas personas. Decidieron investigar: ¿Realmente todos tienen la misma oportunidad de ganar?<br><br>Para decidir si la rifa es justa, uno de los estudiantes propuso lanzar un dado. “¡Si todos los números tienen la misma chance, será más justo!”, dijo. Así descubrieron una palabra clave: equiprobabilidad.<br><br><ul><li>¿Qué significa que algo sea “justo” en una rifa?</li><li>¿Qué harías tú para que todos tengan las mismas probabilidades?</li><li>¿Qué objetos conoces que tienen "resultados aleatorios"?</li></ul><br>Decimos que un evento es equiprobable cuando todas las opciones tienen la misma probabilidad de ocurrir. Por ejemplo, lanzar una moneda es un experimento aleatorio cuyo <b>Espacio Muestral</b> tiene dos resultados posibles (cara o cruz), y ambos tienen la misma posibilidad de ocurrir: 50% o 1/2.<br><br><div class="navtxt"><b>Espacio Muestral (M)</b> es el conjunto de todos los posibles resultados de un experimento. Por ejemplo, al lanzar una moneda, el espacio muestral es:<br> <div class="text-center" style="font-weight:bold;"> M = { Ágila, Sol } </div>.</div>',
     'Apertura tiempo': '',
     'Apertura tiempo total': 20,
     'Apertura técnicas': '',
@@ -140,7 +140,7 @@ TEMAS = [
     'Apertura eva pond': 0,
     'Caso': '',
     
-    'Desarrollo': '',
+    'Desarrollo': '<b>Experimento</b><br>Lanza un dado 10 veces. Registra los resultados en el pizarrón<br><br><ul><li>¿Salieron todos los números?</li><li>¿Hubo alguno que salió más veces?</li><li>¿Eso significa que el dado está “mal”?</li><li>¿Cuál es el espacio muestral?</li><li>¿Cuál sería la probabilidad de que salga un número par?</li></ul><div class="navtxt">Aunque el dado sea justo, la probabilidad es teórica, y los resultados pueden variar a corto plazo.</div><div class="actividad"><b>Actividad 5</b><br>Indica el espacio muestral y la probabilidad de cada evento:<ul><li>Lanzar una moneda.</li><li>Lanzar un dado de 6 caras.</li><li>Sacar una bolita de una bolsa con 3 bolitas rojas, 2 verdes y 5 azules (¿es equiprobable?).</li></ul><br><br>Antes de entregar tu actividad al profesor toma una foto de la misma y como <b>Tarea 4</b> deberás enviar la foto de la actividad por medio de correo electrónico utilizando el botón <i>"Enviar actividad"</i> que está abajo en la parte final de este recuadro. <b>*La fecha límite para enviar la Tarea 4 es el viernes 12 de septiembre a las 09:00 PM.</b></div><text class="emoji"> &#128228;</text><a class="btn btn-primary btn-lg"  type="button" href="mailto:mc.renebec@gmail.com?subject=env%C3%ADo%20actividad&body=**Sustituya%20los%20campos%20con%20los%20datos%20correctos%3A%0D%0A%0D%0AMi%20nombre%3A%20%3C%3C%20JUAN%20HERN%C3%81NDEZ%20GARC%C3%8DA%20%3E%3E%0D%0A%0D%0AMis%20datos%20de%20grupo%3A%20%3C%3C%201%20A%20%3E%3E%0D%0A%0D%0AN%C3%BAmero%20de%20actividad%20o%20tarea%3A%20%3C%3C%20ACTIVIDAD%2019%20%3E%3E%0D%0A%0D%0AInstrucciones%3A%20--%20Adjunta%20el%20archivo%20con%20la%20Actividad%20--">Enviar actividad</a><br><br><div class="actividad"><b>Actividad 6</b><br>Analiza las siguientes situaciones. En cada una, indica:<ul><li>El espacio muestral.</li><li>Si los eventos son equiprobables.</li><li>La probabilidad de un evento dado.</li></ul><br><br>1. Sacar una carta de una baraja de 40 cartas (¿cuál es la probabilidad de sacar un as?).<br>2. Girar una ruleta con 4 partes iguales de colores: rojo, azul, verde, amarillo.<br>3. Lanzar dos dados y sumar los resultados: ¿cuál es el espacio muestral? ¿Es equiprobable obtener todas las sumas?<br><br>Antes de entregar tu actividad al profesor toma una foto de la misma y como <b>Tarea 5</b> deberás enviar la foto de la actividad por medio de correo electrónico utilizando el botón <i>"Enviar actividad"</i> que está abajo en la parte final de este recuadro. <b>*La fecha límite para enviar la Tarea 5 es el viernes 12 de septiembre a las 09:00 PM.</b></div><text class="emoji"> &#128228;</text><a class="btn btn-primary btn-lg"  type="button" href="mailto:mc.renebec@gmail.com?subject=env%C3%ADo%20actividad&body=**Sustituya%20los%20campos%20con%20los%20datos%20correctos%3A%0D%0A%0D%0AMi%20nombre%3A%20%3C%3C%20JUAN%20HERN%C3%81NDEZ%20GARC%C3%8DA%20%3E%3E%0D%0A%0D%0AMis%20datos%20de%20grupo%3A%20%3C%3C%201%20A%20%3E%3E%0D%0A%0D%0AN%C3%BAmero%20de%20actividad%20o%20tarea%3A%20%3C%3C%20ACTIVIDAD%2019%20%3E%3E%0D%0A%0D%0AInstrucciones%3A%20--%20Adjunta%20el%20archivo%20con%20la%20Actividad%20--">Enviar actividad</a><br>',
     'Desarrollo tiempo': '',
     'Desarrollo tiempo total': 60,
     'Desarrollo técnicas': '',
@@ -148,14 +148,14 @@ TEMAS = [
     'Desarrollo eva diag': '',
     'Desarrollo eva inst': '',
     'Desarrollo eva pond': 2,
-    'Laboratorio':'',
+    'Laboratorio':'En esta sesión de laboratorio vamos a conocer <b>Posit.Coud</b>. Se trata de una herramienta online para trabajar proyectos usando <b>RStudio</b> que es el entorno recomendado para operar el lenguaje <b>R</b>. Para poder registrarnos como usuarios necesitaremos tener una cuenta de correo electrónico y, por supuesto, debemos tener acceso a internet. Abrimos un navegador de internet y nos daremos de alta en <b>Posit.Cloud</b>.',
     'Laboratorio tiempo total': 60,
     'Laboratorio evidencia': '',
     'Laboratorio eva diag': '',
     'Laboratorio eva inst': '',
     'Laboratorio eva pond': 2,
     
-    'Cierre': '',
+    'Cierre': 'Consulta las lecturas y actividades anteriores para responder el siguiente cuestionario de cierre.<br><br><div class="actividad"><b>Actividad 7</b><br><br><b>Cuestionario</b>1. ¿Qué significa que un evento sea equiprobable?<br>2. ¿Cuál es el espacio muestral al lanzar una moneda dos veces?<br>3. En una bolsa con 2 rojas, 2 verdes y 6 azules, ¿es equiprobable sacar una de cualquier color?<br><br>Antes de entregar tu actividad al profesor toma una foto de la misma y como <b>Tarea 6</b> deberás enviar la foto de la actividad por medio de correo electrónico utilizando el botón <i>"Enviar actividad"</i> que está abajo en la parte final de este recuadro. <b>*La fecha límite para enviar la Tarea 6 es el viernes 12 de septiembre a las 09:00 PM.</b></div><text class="emoji"> &#128228;</text><a class="btn btn-primary btn-lg"  type="button" href="mailto:mc.renebec@gmail.com?subject=env%C3%ADo%20actividad&body=**Sustituya%20los%20campos%20con%20los%20datos%20correctos%3A%0D%0A%0D%0AMi%20nombre%3A%20%3C%3C%20JUAN%20HERN%C3%81NDEZ%20GARC%C3%8DA%20%3E%3E%0D%0A%0D%0AMis%20datos%20de%20grupo%3A%20%3C%3C%201%20A%20%3E%3E%0D%0A%0D%0AN%C3%BAmero%20de%20actividad%20o%20tarea%3A%20%3C%3C%20ACTIVIDAD%2019%20%3E%3E%0D%0A%0D%0AInstrucciones%3A%20--%20Adjunta%20el%20archivo%20con%20la%20Actividad%20--">Enviar actividad</a><br>',
     'Cierre tiempo': '',
     'Cierre tiempo total': 40,
     'Cierre técnicas': '',
@@ -166,17 +166,17 @@ TEMAS = [
     
     'Materiales': '',
     'Equipo': '',
-    'Fuente1': 'https://login.posit.cloud/login?redirect=%2F',
-    'Fuente2': '',
+    'Fuente1': 'https://es.khanacademy.org/math/statistics-probability',
+    'Fuente2': 'http://matematicas.sep.gob.mx/',
     'Fuente3': '',
     'Elaboró':'',
     'Revisó': '',
     'Avaló': '',
     'Ponderación pg': 5,
 'src1':'https://matematicas-1.onrender.com/static/coin hands.jpg',
-    'Ejercicios': 'Con las técnicas y las herramientas que ya vimos anteriormente, ahora buscaremos resolver situaciones diferentes.',
-    'Resuelve': 'Para resolver este problema ...',
-    'Retroalimentación': 'Con la finalidad de tener retroalimentación acerca de los temas anteriormente cubiertos, realizaremos una actividad final antes de continuar con el programa.'
+    'Ejercicios': '',
+    'Resuelve': '',
+    'Retroalimentación': ''
   },
   
   {
